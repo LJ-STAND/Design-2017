@@ -346,10 +346,11 @@ UsedLibrary="C:/EAGLE-7.5.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/zetex.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/zilog.lbr"
+UsedLibrary="C:/Users/James Yelland/git/LJ-STAND-2017/EAGLE/Libraries/fuse-holder-3568.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="-8 -8 1671 978"
+Loc="0 0 1679 986"
 State=1
 Number=0
 
