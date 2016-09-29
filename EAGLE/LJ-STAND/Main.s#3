@@ -3675,6 +3675,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND73" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
+<part name="GND74" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3844,6 +3845,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="P+2" gate="1" x="78.74" y="180.34"/>
 <instance part="GND73" gate="1" x="73.66" y="160.02"/>
 <instance part="P+3" gate="1" x="78.74" y="149.86"/>
+<instance part="GND74" gate="1" x="73.66" y="129.54"/>
 </instances>
 <busses>
 </busses>
@@ -4368,6 +4370,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="73.66" y1="165.1" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
 <junction x="73.66" y="165.1"/>
 <pinref part="GND73" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="PIXY_I2C" gate="G$1" pin="10"/>
+<wire x1="71.12" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="PIXY_I2C" gate="G$1" pin="6"/>
+<wire x1="71.12" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="139.7" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="134.62" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
+<junction x="73.66" y="134.62"/>
+<pinref part="GND74" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="MOTOR_PWR" class="0">

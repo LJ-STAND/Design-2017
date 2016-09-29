@@ -1440,6 +1440,15 @@ design rules under a new name.</description>
 <signal name="SENSOR_SDA">
 <contactref element="IMU" pad="4"/>
 </signal>
+<signal name="MISO">
+<contactref element="MASTER" pad="45"/>
+</signal>
+<signal name="MOSI">
+<contactref element="MASTER" pad="44"/>
+</signal>
+<signal name="SCK">
+<contactref element="MASTER" pad="46"/>
+</signal>
 </signals>
 </board>
 </drawing>
