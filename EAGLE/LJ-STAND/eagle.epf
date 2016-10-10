@@ -1,5 +1,5 @@
 [Eagle]
-Version="07 06 00"
+Version="07 02 00"
 Platform="Windows"
 Serial="62191E841E-LSR-WLM-1EL"
 Globals="Globals"
@@ -15,9 +15,9 @@ UsedLibrary="C:/Users/James Yelland/git/LJ-STAND-2017/EAGLE/Libraries/teensy-3.5
 [Win_1]
 Type="Control Panel"
 Loc="0 0 1679 986"
-State=1
+State=3
 Number=0
 
 [Desktop]
-Screen="4240 1600"
+Screen="2560 1600"
 Window="Win_1"

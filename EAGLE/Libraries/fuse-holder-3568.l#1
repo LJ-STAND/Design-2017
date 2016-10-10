@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -76,31 +76,26 @@
 </packages>
 <symbols>
 <symbol name="3568-FUSEHOLDER">
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="0" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<pin name="P1A" x="-10.16" y="0" length="short"/>
-<pin name="P2A" x="10.16" y="0" length="short" rot="R180"/>
 <text x="-5.08" y="7.62" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<text x="-5.08" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="P1" x="-10.16" y="2.54" length="short"/>
 <pin name="P2" x="10.16" y="2.54" length="short" rot="R180"/>
+<wire x1="-7.62" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="3568-FUSEHOLDER">
+<deviceset name="3568-FUSEHOLDER" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="3568-FUSEHOLDER" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="3568-FUSEHOLDER">
-<connects>
-<connect gate="G$1" pin="P1" pad="1"/>
-<connect gate="G$1" pin="P1A" pad="2"/>
-<connect gate="G$1" pin="P2" pad="4"/>
-<connect gate="G$1" pin="P2A" pad="3"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>

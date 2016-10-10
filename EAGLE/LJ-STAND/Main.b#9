@@ -1434,11 +1434,23 @@ design rules under a new name.</description>
 <signal name="LS25">
 <contactref element="LIGHT_SENSOR" pad="50"/>
 </signal>
-<signal name="N$24">
+<signal name="SENSOR_SCL">
 <contactref element="IMU" pad="3"/>
 </signal>
-<signal name="N$25">
+<signal name="SENSOR_SDA">
 <contactref element="IMU" pad="4"/>
+</signal>
+<signal name="MISO">
+<contactref element="MASTER" pad="45"/>
+</signal>
+<signal name="MOSI">
+<contactref element="MASTER" pad="44"/>
+</signal>
+<signal name="SCK">
+<contactref element="MASTER" pad="46"/>
+</signal>
+<signal name="CS_TSOP">
+<contactref element="MASTER" pad="43"/>
 </signal>
 </signals>
 </board>

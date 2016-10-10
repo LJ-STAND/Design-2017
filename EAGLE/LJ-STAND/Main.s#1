@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3523,7 +3523,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22uF"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
-<part name="VREG-3.3V" library="linear" deviceset="LM340?-*" device="S" technology="05"/>
+<part name="VREG-3.3V" library="linear" deviceset="LM340?-*" device="S" technology="05" value="LM1084"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="PWR_IN" library="jst-vh" deviceset="B2P-VH" device=""/>
@@ -3622,7 +3622,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR2_OUT1" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="MTR2_OUT" library="jst-vh" deviceset="B2P-VH" device=""/>
 <part name="C30" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C31" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
@@ -3634,7 +3634,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="C34" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR3_OUT2" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="MTR3_OUT" library="jst-vh" deviceset="B2P-VH" device=""/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
@@ -3699,8 +3699,14 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="PWR_IN" gate="G$1" x="15.24" y="63.5" rot="R180"/>
 <instance part="C13" gate="G$1" x="124.46" y="48.26"/>
 <instance part="C14" gate="G$1" x="154.94" y="48.26"/>
-<instance part="MOTOR_SWITCH" gate="G$1" x="71.12" y="78.74" rot="R90"/>
-<instance part="LOGIC_SWITCH" gate="G$1" x="71.12" y="50.8" rot="R270"/>
+<instance part="MOTOR_SWITCH" gate="G$1" x="71.12" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="90.17" y="85.09" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="78.74" y="74.93" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="LOGIC_SWITCH" gate="G$1" x="71.12" y="50.8" smashed="yes" rot="R270">
+<attribute name="NAME" x="54.61" y="44.45" size="1.778" layer="95"/>
+<attribute name="VALUE" x="63.5" y="54.61" size="1.778" layer="96" rot="R270"/>
+</instance>
 <instance part="MASTER" gate="G$1" x="43.18" y="-101.6"/>
 <instance part="GND10" gate="1" x="5.08" y="-5.08"/>
 <instance part="GND11" gate="1" x="81.28" y="-10.16"/>
@@ -3792,7 +3798,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND50" gate="1" x="220.98" y="228.6"/>
 <instance part="GND51" gate="1" x="256.54" y="208.28"/>
 <instance part="C29" gate="G$1" x="243.84" y="200.66" rot="R90"/>
-<instance part="MTR2_OUT1" gate="G$1" x="243.84" y="190.5" rot="R270"/>
+<instance part="MTR2_OUT" gate="G$1" x="243.84" y="190.5" rot="R270"/>
 <instance part="C30" gate="G$1" x="220.98" y="241.3" rot="R180"/>
 <instance part="C31" gate="G$1" x="220.98" y="254" rot="R180"/>
 <instance part="GND52" gate="1" x="226.06" y="256.54"/>
@@ -3804,7 +3810,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND55" gate="1" x="137.16" y="231.14"/>
 <instance part="GND56" gate="1" x="172.72" y="210.82"/>
 <instance part="C34" gate="G$1" x="160.02" y="203.2" rot="R90"/>
-<instance part="MTR3_OUT2" gate="G$1" x="160.02" y="193.04" rot="R270"/>
+<instance part="MTR3_OUT" gate="G$1" x="160.02" y="193.04" rot="R270"/>
 <instance part="C35" gate="G$1" x="137.16" y="243.84" rot="R180"/>
 <instance part="C36" gate="G$1" x="137.16" y="256.54" rot="R180"/>
 <instance part="GND57" gate="1" x="142.24" y="259.08"/>
@@ -5041,7 +5047,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="226.06" y1="213.36" x2="226.06" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="200.66" x2="236.22" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<pinref part="MTR2_OUT1" gate="G$1" pin="2"/>
+<pinref part="MTR2_OUT" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="200.66" x2="238.76" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="190.5" x2="241.3" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="195.58" x2="236.22" y2="195.58" width="0.1524" layer="91"/>
@@ -5056,7 +5062,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="261.62" y1="218.44" x2="261.62" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="200.66" x2="248.92" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<pinref part="MTR2_OUT1" gate="G$1" pin="1"/>
+<pinref part="MTR2_OUT" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="200.66" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="190.5" x2="243.84" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="195.58" x2="248.92" y2="195.58" width="0.1524" layer="91"/>
@@ -5101,7 +5107,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="142.24" y1="215.9" x2="142.24" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="203.2" x2="152.4" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="1"/>
-<pinref part="MTR3_OUT2" gate="G$1" pin="2"/>
+<pinref part="MTR3_OUT" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="203.2" x2="154.94" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="193.04" x2="157.48" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="198.12" x2="152.4" y2="198.12" width="0.1524" layer="91"/>
@@ -5116,7 +5122,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="177.8" y1="220.98" x2="177.8" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="203.2" x2="165.1" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="2"/>
-<pinref part="MTR3_OUT2" gate="G$1" pin="1"/>
+<pinref part="MTR3_OUT" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="203.2" x2="162.56" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="193.04" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
@@ -5560,6 +5566,16 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="330.2" y1="58.42" x2="330.2" y2="55.88" width="0.1524" layer="91"/>
 <label x="330.2" y="55.88" size="1.778" layer="95" rot="R270" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TSOP" gate="G$1" pin="38/A19/PWM/SDA1"/>
+<wire x1="203.2" y1="-96.52" x2="205.74" y2="-96.52" width="0.1524" layer="91"/>
+<label x="205.74" y="-96.52" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LIGHT_SENSOR" gate="G$1" pin="4/PWM/CAN0RX/SDA2"/>
+<wire x1="276.86" y1="-30.48" x2="274.32" y2="-30.48" width="0.1524" layer="91"/>
+<label x="274.32" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="TEENSY_SCL" class="0">
 <segment>
@@ -5571,6 +5587,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="317.5" y1="55.88" x2="317.5" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <label x="317.5" y="55.88" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LIGHT_SENSOR" gate="G$1" pin="3/PWM/CAN0TX/SCL2"/>
+<wire x1="276.86" y1="-25.4" x2="274.32" y2="-25.4" width="0.1524" layer="91"/>
+<label x="274.32" y="-25.4" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PIXY_MISO" class="0">
@@ -5633,6 +5654,13 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <pinref part="PIXY_I2C" gate="G$1" pin="9"/>
 <wire x1="55.88" y1="134.62" x2="53.34" y2="134.62" width="0.1524" layer="91"/>
 <label x="53.34" y="134.62" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="TEENSY_SDL" class="0">
+<segment>
+<pinref part="TSOP" gate="G$1" pin="37/A18/PWM/SCL1"/>
+<wire x1="203.2" y1="-101.6" x2="205.74" y2="-101.6" width="0.1524" layer="91"/>
+<label x="205.74" y="-101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

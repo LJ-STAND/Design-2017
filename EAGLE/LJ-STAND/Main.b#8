@@ -1329,8 +1329,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="MTR3_SB">
 <contactref element="MOTOR_3" pad="14"/>
-<contactref element="MASTER" pad="11"/>
-<wire x1="-49.53" y1="30.48" x2="-15.24" y2="82.55" width="0" layer="19" extent="1-1"/>
+<contactref element="MASTER" pad="14"/>
+<wire x1="-34.29" y1="30.48" x2="-15.24" y2="82.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MTR2_IN1">
 <contactref element="MOTOR_2" pad="6"/>
@@ -1439,6 +1439,21 @@ design rules under a new name.</description>
 </signal>
 <signal name="SENSOR_SDA">
 <contactref element="IMU" pad="4"/>
+</signal>
+<signal name="MOSI">
+<contactref element="MASTER" pad="11"/>
+</signal>
+<signal name="MISO">
+<contactref element="MASTER" pad="12"/>
+</signal>
+<signal name="SCK">
+<contactref element="MASTER" pad="13"/>
+</signal>
+<signal name="CS_TSOP">
+<contactref element="MASTER" pad="15"/>
+</signal>
+<signal name="CS_LIGHT_SENSOR">
+<contactref element="MASTER" pad="20"/>
 </signal>
 </signals>
 </board>
