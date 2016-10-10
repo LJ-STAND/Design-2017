@@ -3622,7 +3622,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR2_OUT1" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="MTR2_OUT" library="jst-vh" deviceset="B2P-VH" device=""/>
 <part name="C30" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C31" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
@@ -3634,7 +3634,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="C34" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR3_OUT2" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="MTR3_OUT" library="jst-vh" deviceset="B2P-VH" device=""/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
@@ -3792,7 +3792,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND50" gate="1" x="220.98" y="228.6"/>
 <instance part="GND51" gate="1" x="256.54" y="208.28"/>
 <instance part="C29" gate="G$1" x="243.84" y="200.66" rot="R90"/>
-<instance part="MTR2_OUT1" gate="G$1" x="243.84" y="190.5" rot="R270"/>
+<instance part="MTR2_OUT" gate="G$1" x="243.84" y="190.5" rot="R270"/>
 <instance part="C30" gate="G$1" x="220.98" y="241.3" rot="R180"/>
 <instance part="C31" gate="G$1" x="220.98" y="254" rot="R180"/>
 <instance part="GND52" gate="1" x="226.06" y="256.54"/>
@@ -3804,7 +3804,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <instance part="GND55" gate="1" x="137.16" y="231.14"/>
 <instance part="GND56" gate="1" x="172.72" y="210.82"/>
 <instance part="C34" gate="G$1" x="160.02" y="203.2" rot="R90"/>
-<instance part="MTR3_OUT2" gate="G$1" x="160.02" y="193.04" rot="R270"/>
+<instance part="MTR3_OUT" gate="G$1" x="160.02" y="193.04" rot="R270"/>
 <instance part="C35" gate="G$1" x="137.16" y="243.84" rot="R180"/>
 <instance part="C36" gate="G$1" x="137.16" y="256.54" rot="R180"/>
 <instance part="GND57" gate="1" x="142.24" y="259.08"/>
@@ -4366,20 +4366,28 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="71.12" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="PIXY_SPI" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="170.18" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="170.18" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="170.18" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="167.64" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="165.1" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
 <junction x="73.66" y="165.1"/>
 <pinref part="GND73" gate="1" pin="GND"/>
+<pinref part="PIXY_SPI" gate="G$1" pin="8"/>
+<wire x1="71.12" y1="167.64" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
+<junction x="73.66" y="167.64"/>
 </segment>
 <segment>
 <pinref part="PIXY_I2C" gate="G$1" pin="10"/>
 <wire x1="71.12" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="PIXY_I2C" gate="G$1" pin="6"/>
 <wire x1="71.12" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="139.7" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="139.7" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="137.16" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="134.62" x2="73.66" y2="132.08" width="0.1524" layer="91"/>
 <junction x="73.66" y="134.62"/>
 <pinref part="GND74" gate="1" pin="GND"/>
+<pinref part="PIXY_I2C" gate="G$1" pin="8"/>
+<wire x1="71.12" y1="137.16" x2="73.66" y2="137.16" width="0.1524" layer="91"/>
+<junction x="73.66" y="137.16"/>
 </segment>
 </net>
 <net name="MOTOR_PWR" class="0">
@@ -5033,7 +5041,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="226.06" y1="213.36" x2="226.06" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="226.06" y1="200.66" x2="236.22" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<pinref part="MTR2_OUT1" gate="G$1" pin="2"/>
+<pinref part="MTR2_OUT" gate="G$1" pin="2"/>
 <wire x1="236.22" y1="200.66" x2="238.76" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="190.5" x2="241.3" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="195.58" x2="236.22" y2="195.58" width="0.1524" layer="91"/>
@@ -5048,7 +5056,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="261.62" y1="218.44" x2="261.62" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="200.66" x2="248.92" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<pinref part="MTR2_OUT1" gate="G$1" pin="1"/>
+<pinref part="MTR2_OUT" gate="G$1" pin="1"/>
 <wire x1="248.92" y1="200.66" x2="246.38" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="190.5" x2="243.84" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="195.58" x2="248.92" y2="195.58" width="0.1524" layer="91"/>
@@ -5093,7 +5101,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="142.24" y1="215.9" x2="142.24" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="203.2" x2="152.4" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="1"/>
-<pinref part="MTR3_OUT2" gate="G$1" pin="2"/>
+<pinref part="MTR3_OUT" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="203.2" x2="154.94" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="193.04" x2="157.48" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="198.12" x2="152.4" y2="198.12" width="0.1524" layer="91"/>
@@ -5108,7 +5116,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="177.8" y1="220.98" x2="177.8" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="203.2" x2="165.1" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="2"/>
-<pinref part="MTR3_OUT2" gate="G$1" pin="1"/>
+<pinref part="MTR3_OUT" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="203.2" x2="162.56" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="193.04" x2="160.02" y2="198.12" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="198.12" x2="165.1" y2="198.12" width="0.1524" layer="91"/>
@@ -5571,12 +5579,22 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="55.88" y1="175.26" x2="53.34" y2="177.8" width="0.1524" layer="91"/>
 <label x="53.34" y="177.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MASTER" gate="G$1" pin="45/MISO2"/>
+<wire x1="12.7" y1="-137.16" x2="10.16" y2="-137.16" width="0.1524" layer="91"/>
+<label x="10.16" y="-137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PIXY_SCK" class="0">
 <segment>
 <pinref part="PIXY_SPI" gate="G$1" pin="3"/>
 <wire x1="55.88" y1="172.72" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
 <label x="53.34" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MASTER" gate="G$1" pin="46/SCK2"/>
+<wire x1="12.7" y1="-132.08" x2="10.16" y2="-132.08" width="0.1524" layer="91"/>
+<label x="10.16" y="-132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PIXY_MOSI" class="0">
@@ -5585,12 +5603,22 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <wire x1="71.12" y1="172.72" x2="73.66" y2="172.72" width="0.1524" layer="91"/>
 <label x="73.66" y="172.72" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="MASTER" gate="G$1" pin="44/MOSI2"/>
+<wire x1="12.7" y1="-142.24" x2="10.16" y2="-142.24" width="0.1524" layer="91"/>
+<label x="10.16" y="-142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="PIXY_CS" class="0">
 <segment>
 <pinref part="PIXY_SPI" gate="G$1" pin="7"/>
 <wire x1="55.88" y1="167.64" x2="53.34" y2="167.64" width="0.1524" layer="91"/>
 <label x="53.34" y="167.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MASTER" gate="G$1" pin="43/CS2"/>
+<wire x1="12.7" y1="-147.32" x2="10.16" y2="-147.32" width="0.1524" layer="91"/>
+<label x="10.16" y="-147.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="PIXY_SCL" class="0">
