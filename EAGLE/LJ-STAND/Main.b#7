@@ -864,7 +864,7 @@ design rules under a new name.</description>
 <element name="TSOP7" library="tsop" package="TSOP17XX" value="TSOP1737" x="-86.36" y="102.87"/>
 <element name="TSOP8" library="tsop" package="TSOP17XX" value="TSOP1737" x="-96.52" y="102.87"/>
 <element name="TSOP9" library="tsop" package="TSOP17XX" value="TSOP1737" x="-17.78" y="111.76"/>
-<element name="VREG-3.3V" library="linear" package="TO263-3" value="LM340S-05" x="-40.64" y="72.39"/>
+<element name="VREG-3.3V" library="linear" package="TO263-3" value="LM1084" x="-40.64" y="72.39"/>
 <element name="VREG-5V" library="V78-2000-switching-regulator" package="V78-2000" value="V78-2000" x="-50.8" y="95.25"/>
 </elements>
 <signals>

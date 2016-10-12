@@ -2890,6 +2890,10 @@ design rules under a new name.</description>
 <contactref element="C46" pad="1"/>
 <contactref element="TSOP24" pad="V+"/>
 <contactref element="C47" pad="1"/>
+<contactref element="TSOP" pad="28"/>
+<contactref element="TSOP" pad="31"/>
+<contactref element="TSOP" pad="29"/>
+<contactref element="TSOP" pad="30"/>
 <wire x1="-126.58" y1="-82.55" x2="-126.58" y2="-86.36" width="0" layer="19" extent="1-1"/>
 <wire x1="-122.77" y1="-82.55" x2="-126.58" y2="-82.55" width="0" layer="19" extent="1-1"/>
 <wire x1="-118.96" y1="-82.55" x2="-122.77" y2="-82.55" width="0" layer="19" extent="1-1"/>
@@ -2905,23 +2909,26 @@ design rules under a new name.</description>
 <wire x1="-113.03" y1="-63.5" x2="-113.03" y2="-69.85" width="0" layer="19" extent="1-1"/>
 <wire x1="-113.03" y1="-57.15" x2="-113.03" y2="-63.5" width="0" layer="19" extent="1-1"/>
 <wire x1="-104.99" y1="-76.2" x2="-107.53" y2="-82.55" width="0" layer="19" extent="1-1"/>
-<wire x1="-97.79" y1="102.87" x2="-113.03" y2="-57.15" width="0" layer="19" extent="1-1"/>
-<wire x1="-87.63" y1="102.87" x2="-97.79" y2="102.87" width="0" layer="19" extent="1-1"/>
-<wire x1="-90.17" y1="111.76" x2="-87.63" y2="102.87" width="0" layer="19" extent="1-1"/>
-<wire x1="-89.75" y1="115.57" x2="-90.17" y2="111.76" width="0" layer="19" extent="1-1"/>
-<wire x1="-85.94" y1="115.57" x2="-89.75" y2="115.57" width="0" layer="19" extent="1-1"/>
-<wire x1="-82.13" y1="115.57" x2="-85.94" y2="115.57" width="0" layer="19" extent="1-1"/>
-<wire x1="-78.32" y1="115.57" x2="-82.13" y2="115.57" width="0" layer="19" extent="1-1"/>
-<wire x1="-74.51" y1="115.57" x2="-78.32" y2="115.57" width="0" layer="19" extent="1-1"/>
-<wire x1="-70.7" y1="115.57" x2="-74.51" y2="115.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.58" y1="5.08" x2="-113.03" y2="-57.15" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.58" y1="7.62" x2="-68.58" y2="5.08" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.58" y1="10.16" x2="-68.58" y2="7.62" width="0" layer="19" extent="1-1"/>
+<wire x1="-68.58" y1="12.7" x2="-68.58" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="-67.31" y1="102.87" x2="-68.58" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="-69.85" y1="111.76" x2="-67.31" y2="102.87" width="0" layer="19" extent="1-1"/>
+<wire x1="-70.7" y1="115.57" x2="-69.85" y2="111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-66.89" y1="115.57" x2="-70.7" y2="115.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-74.51" y1="115.57" x2="-70.7" y2="115.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-78.32" y1="115.57" x2="-74.51" y2="115.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-82.13" y1="115.57" x2="-78.32" y2="115.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-85.94" y1="115.57" x2="-82.13" y2="115.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-89.75" y1="115.57" x2="-85.94" y2="115.57" width="0" layer="19" extent="1-1"/>
 <wire x1="-93.56" y1="115.57" x2="-89.75" y2="115.57" width="0" layer="19" extent="1-1"/>
-<wire x1="-69.85" y1="111.76" x2="-70.7" y2="115.57" width="0" layer="19" extent="1-1"/>
+<wire x1="-90.17" y1="111.76" x2="-89.75" y2="115.57" width="0" layer="19" extent="1-1"/>
 <wire x1="-80.01" y1="111.76" x2="-78.32" y2="115.57" width="0" layer="19" extent="1-1"/>
 <wire x1="-59.69" y1="111.76" x2="-66.89" y2="115.57" width="0" layer="19" extent="1-1"/>
 <wire x1="-57.15" y1="102.87" x2="-59.69" y2="111.76" width="0" layer="19" extent="1-1"/>
-<wire x1="-67.31" y1="102.87" x2="-69.85" y2="111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-77.47" y1="102.87" x2="-80.01" y2="111.76" width="0" layer="19" extent="1-1"/>
+<wire x1="-87.63" y1="102.87" x2="-90.17" y2="111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-49.53" y1="111.76" x2="-59.69" y2="111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-46.99" y1="102.87" x2="-49.53" y2="111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-39.37" y1="111.76" x2="-49.53" y2="111.76" width="0" layer="19" extent="1-1"/>
@@ -2929,6 +2936,7 @@ design rules under a new name.</description>
 <wire x1="-29.21" y1="111.76" x2="-39.37" y2="111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-26.67" y1="102.87" x2="-29.21" y2="111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.05" y1="111.76" x2="-29.21" y2="111.76" width="0" layer="19" extent="1-1"/>
+<wire x1="-97.79" y1="102.87" x2="-87.63" y2="102.87" width="0" layer="19" extent="1-1"/>
 <wire x1="-38.95" y1="121.92" x2="-39.37" y2="111.76" width="0" layer="19" extent="1-1"/>
 <wire x1="-35.14" y1="121.92" x2="-38.95" y2="121.92" width="0" layer="19" extent="1-1"/>
 <wire x1="-31.33" y1="121.92" x2="-35.14" y2="121.92" width="0" layer="19" extent="1-1"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2784,30 +2784,30 @@ design rules under a new name.</description>
 <element name="SLAVE_LIGHT" library="teensy-3.5" package="TEENSY-3.5" value="TEENSY-3.5" x="-41.91" y="31.75"/>
 <element name="SLAVE_TSOP" library="teensy-3.5" package="TEENSY-3.5" value="TEENSY-3.5" x="-60.96" y="31.75"/>
 <element name="SW1" library="SparkFun-Electromechanical" package="DIPSWITCH-08" value="" x="-72.39" y="71.12"/>
-<element name="TSOP1" library="tsop" package="TSOP17XX" value="TSOP1737" x="-17.78" y="116.84"/>
-<element name="TSOP10" library="tsop" package="TSOP17XX" value="TSOP1737" x="-109.22" y="116.84"/>
-<element name="TSOP11" library="tsop" package="TSOP17XX" value="TSOP1737" x="-17.78" y="123.19"/>
-<element name="TSOP12" library="tsop" package="TSOP17XX" value="TSOP1737" x="-27.94" y="123.19"/>
-<element name="TSOP13" library="tsop" package="TSOP17XX" value="TSOP1737" x="-38.1" y="123.19"/>
-<element name="TSOP14" library="tsop" package="TSOP17XX" value="TSOP1737" x="-48.26" y="123.19"/>
-<element name="TSOP15" library="tsop" package="TSOP17XX" value="TSOP1737" x="-58.42" y="123.19"/>
-<element name="TSOP16" library="tsop" package="TSOP17XX" value="TSOP1737" x="-68.58" y="123.19"/>
-<element name="TSOP17" library="tsop" package="TSOP17XX" value="TSOP1737" x="-78.74" y="123.19"/>
-<element name="TSOP18" library="tsop" package="TSOP17XX" value="TSOP1737" x="-88.9" y="123.19"/>
-<element name="TSOP19" library="tsop" package="TSOP17XX" value="TSOP1737" x="-99.06" y="123.19"/>
-<element name="TSOP2" library="tsop" package="TSOP17XX" value="TSOP1737" x="-27.94" y="116.84"/>
-<element name="TSOP20" library="tsop" package="TSOP17XX" value="TSOP1737" x="-109.22" y="123.19"/>
-<element name="TSOP21" library="tsop" package="TSOP17XX" value="TSOP1737" x="-17.78" y="129.54"/>
-<element name="TSOP22" library="tsop" package="TSOP17XX" value="TSOP1737" x="-27.94" y="129.54"/>
-<element name="TSOP23" library="tsop" package="TSOP17XX" value="TSOP1737" x="-38.1" y="129.54"/>
-<element name="TSOP24" library="tsop" package="TSOP17XX" value="TSOP1737" x="-48.26" y="129.54"/>
-<element name="TSOP3" library="tsop" package="TSOP17XX" value="TSOP1737" x="-38.1" y="116.84"/>
-<element name="TSOP4" library="tsop" package="TSOP17XX" value="TSOP1737" x="-48.26" y="116.84"/>
-<element name="TSOP5" library="tsop" package="TSOP17XX" value="TSOP1737" x="-58.42" y="116.84"/>
-<element name="TSOP6" library="tsop" package="TSOP17XX" value="TSOP1737" x="-68.58" y="116.84"/>
-<element name="TSOP7" library="tsop" package="TSOP17XX" value="TSOP1737" x="-78.74" y="116.84"/>
-<element name="TSOP8" library="tsop" package="TSOP17XX" value="TSOP1737" x="-88.9" y="116.84"/>
-<element name="TSOP9" library="tsop" package="TSOP17XX" value="TSOP1737" x="-99.06" y="116.84"/>
+<element name="0" library="tsop" package="TSOP17XX" value="TSOP1737" x="-17.78" y="116.84"/>
+<element name="17" library="tsop" package="TSOP17XX" value="TSOP1737" x="-109.22" y="116.84"/>
+<element name="18" library="tsop" package="TSOP17XX" value="TSOP1737" x="-17.78" y="123.19"/>
+<element name="19" library="tsop" package="TSOP17XX" value="TSOP1737" x="-27.94" y="123.19"/>
+<element name="20" library="tsop" package="TSOP17XX" value="TSOP1737" x="-38.1" y="123.19"/>
+<element name="21" library="tsop" package="TSOP17XX" value="TSOP1737" x="-48.26" y="123.19"/>
+<element name="22" library="tsop" package="TSOP17XX" value="TSOP1737" x="-58.42" y="123.19"/>
+<element name="23" library="tsop" package="TSOP17XX" value="TSOP1737" x="-68.58" y="123.19"/>
+<element name="8" library="tsop" package="TSOP17XX" value="TSOP1737" x="-78.74" y="123.19"/>
+<element name="9" library="tsop" package="TSOP17XX" value="TSOP1737" x="-88.9" y="123.19"/>
+<element name="10" library="tsop" package="TSOP17XX" value="TSOP1737" x="-99.06" y="123.19"/>
+<element name="1" library="tsop" package="TSOP17XX" value="TSOP1737" x="-27.94" y="116.84"/>
+<element name="11" library="tsop" package="TSOP17XX" value="TSOP1737" x="-109.22" y="123.19"/>
+<element name="12" library="tsop" package="TSOP17XX" value="TSOP1737" x="-17.78" y="129.54"/>
+<element name="13" library="tsop" package="TSOP17XX" value="TSOP1737" x="-27.94" y="129.54"/>
+<element name="14" library="tsop" package="TSOP17XX" value="TSOP1737" x="-38.1" y="129.54"/>
+<element name="15" library="tsop" package="TSOP17XX" value="TSOP1737" x="-48.26" y="129.54"/>
+<element name="2" library="tsop" package="TSOP17XX" value="TSOP1737" x="-38.1" y="116.84"/>
+<element name="3" library="tsop" package="TSOP17XX" value="TSOP1737" x="-48.26" y="116.84"/>
+<element name="4" library="tsop" package="TSOP17XX" value="TSOP1737" x="-58.42" y="116.84"/>
+<element name="5" library="tsop" package="TSOP17XX" value="TSOP1737" x="-68.58" y="116.84"/>
+<element name="6" library="tsop" package="TSOP17XX" value="TSOP1737" x="-78.74" y="116.84"/>
+<element name="7" library="tsop" package="TSOP17XX" value="TSOP1737" x="-88.9" y="116.84"/>
+<element name="16" library="tsop" package="TSOP17XX" value="TSOP1737" x="-99.06" y="116.84"/>
 <element name="VREG-3.3V" library="linear" package="TO263-3" value="LM1084" x="-53.34" y="72.39"/>
 <element name="VREG-5V" library="V78-2000-switching-regulator" package="V78-2000" value="V78-2000" x="-111.76" y="97.79"/>
 <element name="XBEE" library="adafruit" package="XBEE" value="XBEE" x="-83.82" y="16.51"/>
@@ -2842,37 +2842,37 @@ design rules under a new name.</description>
 <contactref element="MASTER" pad="GND-4"/>
 <contactref element="MASTER" pad="GND-2"/>
 <contactref element="C15" pad="2"/>
-<contactref element="TSOP1" pad="GND"/>
+<contactref element="0" pad="GND"/>
 <contactref element="C3" pad="2"/>
-<contactref element="TSOP2" pad="GND"/>
+<contactref element="1" pad="GND"/>
 <contactref element="C4" pad="2"/>
-<contactref element="TSOP3" pad="GND"/>
+<contactref element="2" pad="GND"/>
 <contactref element="C5" pad="2"/>
-<contactref element="TSOP4" pad="GND"/>
+<contactref element="3" pad="GND"/>
 <contactref element="C6" pad="2"/>
-<contactref element="TSOP5" pad="GND"/>
+<contactref element="4" pad="GND"/>
 <contactref element="C7" pad="2"/>
-<contactref element="TSOP6" pad="GND"/>
+<contactref element="5" pad="GND"/>
 <contactref element="C8" pad="2"/>
-<contactref element="TSOP7" pad="GND"/>
+<contactref element="6" pad="GND"/>
 <contactref element="C9" pad="2"/>
-<contactref element="TSOP8" pad="GND"/>
+<contactref element="7" pad="GND"/>
 <contactref element="C10" pad="2"/>
-<contactref element="TSOP9" pad="GND"/>
+<contactref element="16" pad="GND"/>
 <contactref element="C16" pad="2"/>
-<contactref element="TSOP10" pad="GND"/>
+<contactref element="17" pad="GND"/>
 <contactref element="C17" pad="2"/>
-<contactref element="TSOP11" pad="GND"/>
+<contactref element="18" pad="GND"/>
 <contactref element="C18" pad="2"/>
-<contactref element="TSOP12" pad="GND"/>
+<contactref element="19" pad="GND"/>
 <contactref element="C19" pad="2"/>
-<contactref element="TSOP13" pad="GND"/>
+<contactref element="20" pad="GND"/>
 <contactref element="C20" pad="2"/>
-<contactref element="TSOP14" pad="GND"/>
+<contactref element="21" pad="GND"/>
 <contactref element="C21" pad="2"/>
-<contactref element="TSOP15" pad="GND"/>
+<contactref element="22" pad="GND"/>
 <contactref element="C22" pad="2"/>
-<contactref element="TSOP16" pad="GND"/>
+<contactref element="23" pad="GND"/>
 <contactref element="C23" pad="2"/>
 <contactref element="MOTOR_1" pad="13"/>
 <contactref element="MOTOR_1" pad="12"/>
@@ -2919,21 +2919,21 @@ design rules under a new name.</description>
 <contactref element="PIXY_I2C" pad="10"/>
 <contactref element="PIXY_I2C" pad="6"/>
 <contactref element="PIXY_I2C" pad="8"/>
-<contactref element="TSOP17" pad="GND"/>
+<contactref element="8" pad="GND"/>
 <contactref element="C40" pad="2"/>
-<contactref element="TSOP18" pad="GND"/>
+<contactref element="9" pad="GND"/>
 <contactref element="C41" pad="2"/>
-<contactref element="TSOP19" pad="GND"/>
+<contactref element="10" pad="GND"/>
 <contactref element="C42" pad="2"/>
-<contactref element="TSOP20" pad="GND"/>
+<contactref element="11" pad="GND"/>
 <contactref element="C43" pad="2"/>
-<contactref element="TSOP21" pad="GND"/>
+<contactref element="12" pad="GND"/>
 <contactref element="C44" pad="2"/>
-<contactref element="TSOP22" pad="GND"/>
+<contactref element="13" pad="GND"/>
 <contactref element="C45" pad="2"/>
-<contactref element="TSOP23" pad="GND"/>
+<contactref element="14" pad="GND"/>
 <contactref element="C46" pad="2"/>
-<contactref element="TSOP24" pad="GND"/>
+<contactref element="15" pad="GND"/>
 <contactref element="C47" pad="2"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="26"/>
 <contactref element="SW1" pad="9"/>
@@ -3177,58 +3177,58 @@ design rules under a new name.</description>
 <wire x1="-41.2" y1="95.25" x2="-16.764" y2="106.68" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP1">
-<contactref element="TSOP1" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="0"/>
-<wire x1="-68.58" y1="58.42" x2="-13.97" y2="116.84" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="1"/>
+<contactref element="1" pad="OUT"/>
+<wire x1="-68.58" y1="55.88" x2="-24.13" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP_PWR">
-<contactref element="TSOP1" pad="V+"/>
+<contactref element="0" pad="V+"/>
 <contactref element="C3" pad="1"/>
-<contactref element="TSOP2" pad="V+"/>
+<contactref element="1" pad="V+"/>
 <contactref element="C4" pad="1"/>
-<contactref element="TSOP3" pad="V+"/>
+<contactref element="2" pad="V+"/>
 <contactref element="C5" pad="1"/>
-<contactref element="TSOP4" pad="V+"/>
+<contactref element="3" pad="V+"/>
 <contactref element="C6" pad="1"/>
-<contactref element="TSOP5" pad="V+"/>
+<contactref element="4" pad="V+"/>
 <contactref element="C7" pad="1"/>
-<contactref element="TSOP6" pad="V+"/>
+<contactref element="5" pad="V+"/>
 <contactref element="C8" pad="1"/>
-<contactref element="TSOP7" pad="V+"/>
+<contactref element="6" pad="V+"/>
 <contactref element="C9" pad="1"/>
-<contactref element="TSOP8" pad="V+"/>
+<contactref element="7" pad="V+"/>
 <contactref element="C10" pad="1"/>
-<contactref element="TSOP9" pad="V+"/>
+<contactref element="16" pad="V+"/>
 <contactref element="C16" pad="1"/>
-<contactref element="TSOP10" pad="V+"/>
+<contactref element="17" pad="V+"/>
 <contactref element="C17" pad="1"/>
-<contactref element="TSOP11" pad="V+"/>
+<contactref element="18" pad="V+"/>
 <contactref element="C18" pad="1"/>
-<contactref element="TSOP12" pad="V+"/>
+<contactref element="19" pad="V+"/>
 <contactref element="C19" pad="1"/>
-<contactref element="TSOP13" pad="V+"/>
+<contactref element="20" pad="V+"/>
 <contactref element="C20" pad="1"/>
-<contactref element="TSOP14" pad="V+"/>
+<contactref element="21" pad="V+"/>
 <contactref element="C21" pad="1"/>
-<contactref element="TSOP15" pad="V+"/>
+<contactref element="22" pad="V+"/>
 <contactref element="C22" pad="1"/>
-<contactref element="TSOP16" pad="V+"/>
+<contactref element="23" pad="V+"/>
 <contactref element="C23" pad="1"/>
-<contactref element="TSOP17" pad="V+"/>
+<contactref element="8" pad="V+"/>
 <contactref element="C40" pad="1"/>
-<contactref element="TSOP18" pad="V+"/>
+<contactref element="9" pad="V+"/>
 <contactref element="C41" pad="1"/>
-<contactref element="TSOP19" pad="V+"/>
+<contactref element="10" pad="V+"/>
 <contactref element="C42" pad="1"/>
-<contactref element="TSOP20" pad="V+"/>
+<contactref element="11" pad="V+"/>
 <contactref element="C43" pad="1"/>
-<contactref element="TSOP21" pad="V+"/>
+<contactref element="12" pad="V+"/>
 <contactref element="C44" pad="1"/>
-<contactref element="TSOP22" pad="V+"/>
+<contactref element="13" pad="V+"/>
 <contactref element="C45" pad="1"/>
-<contactref element="TSOP23" pad="V+"/>
+<contactref element="14" pad="V+"/>
 <contactref element="C46" pad="1"/>
-<contactref element="TSOP24" pad="V+"/>
+<contactref element="15" pad="V+"/>
 <contactref element="C47" pad="1"/>
 <contactref element="SLAVE_TSOP" pad="28"/>
 <contactref element="SLAVE_TSOP" pad="31"/>
@@ -3287,79 +3287,79 @@ design rules under a new name.</description>
 <wire x1="-68.58" y1="5.08" x2="-68.58" y2="7.62" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP2">
-<contactref element="TSOP2" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="1"/>
-<wire x1="-68.58" y1="55.88" x2="-24.13" y2="116.84" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="TSOP3">
-<contactref element="TSOP3" pad="OUT"/>
 <contactref element="SLAVE_TSOP" pad="2"/>
+<contactref element="2" pad="OUT"/>
 <wire x1="-68.58" y1="53.34" x2="-34.29" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TSOP4">
-<contactref element="TSOP4" pad="OUT"/>
+<signal name="TSOP3">
 <contactref element="SLAVE_TSOP" pad="3"/>
+<contactref element="3" pad="OUT"/>
 <wire x1="-68.58" y1="50.8" x2="-44.45" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TSOP5">
-<contactref element="TSOP5" pad="OUT"/>
+<signal name="TSOP4">
 <contactref element="SLAVE_TSOP" pad="4"/>
+<contactref element="4" pad="OUT"/>
 <wire x1="-68.58" y1="48.26" x2="-54.61" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TSOP6">
-<contactref element="TSOP6" pad="OUT"/>
+<signal name="TSOP5">
 <contactref element="SLAVE_TSOP" pad="5"/>
+<contactref element="5" pad="OUT"/>
 <wire x1="-68.58" y1="45.72" x2="-64.77" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TSOP7">
-<contactref element="TSOP7" pad="OUT"/>
+<signal name="TSOP6">
 <contactref element="SLAVE_TSOP" pad="6"/>
+<contactref element="6" pad="OUT"/>
 <wire x1="-68.58" y1="43.18" x2="-74.93" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TSOP8">
-<contactref element="TSOP8" pad="OUT"/>
+<signal name="TSOP7">
 <contactref element="SLAVE_TSOP" pad="7"/>
+<contactref element="7" pad="OUT"/>
 <wire x1="-68.58" y1="40.64" x2="-85.09" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="TSOP9">
-<contactref element="TSOP9" pad="OUT"/>
+<signal name="TSOP8">
 <contactref element="SLAVE_TSOP" pad="8"/>
-<wire x1="-95.25" y1="116.84" x2="-68.58" y2="38.1" width="0" layer="19" extent="1-1"/>
+<contactref element="8" pad="OUT"/>
+<wire x1="-68.58" y1="38.1" x2="-74.93" y2="123.19" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="TSOP9">
+<contactref element="SLAVE_TSOP" pad="9"/>
+<contactref element="9" pad="OUT"/>
+<wire x1="-68.58" y1="35.56" x2="-85.09" y2="123.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP10">
-<contactref element="TSOP10" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="9"/>
-<wire x1="-105.41" y1="116.84" x2="-68.58" y2="35.56" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="10"/>
+<contactref element="10" pad="OUT"/>
+<wire x1="-95.25" y1="123.19" x2="-68.58" y2="33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP11">
-<contactref element="TSOP11" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="10"/>
-<wire x1="-68.58" y1="33.02" x2="-13.97" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="14"/>
+<contactref element="11" pad="OUT"/>
+<wire x1="-105.41" y1="123.19" x2="-53.34" y2="30.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP12">
-<contactref element="TSOP12" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="14"/>
-<wire x1="-53.34" y1="30.48" x2="-24.13" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="16"/>
+<contactref element="12" pad="OUT"/>
+<wire x1="-53.34" y1="35.56" x2="-13.97" y2="129.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP13">
-<contactref element="TSOP13" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="16"/>
-<wire x1="-53.34" y1="35.56" x2="-34.29" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="17"/>
+<contactref element="13" pad="OUT"/>
+<wire x1="-53.34" y1="38.1" x2="-24.13" y2="129.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP14">
-<contactref element="TSOP14" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="17"/>
-<wire x1="-53.34" y1="38.1" x2="-44.45" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="18"/>
+<contactref element="14" pad="OUT"/>
+<wire x1="-53.34" y1="40.64" x2="-34.29" y2="129.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP15">
-<contactref element="TSOP15" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="18"/>
-<wire x1="-53.34" y1="40.64" x2="-54.61" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="19"/>
+<contactref element="15" pad="OUT"/>
+<wire x1="-53.34" y1="43.18" x2="-44.45" y2="129.54" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP16">
-<contactref element="TSOP16" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="19"/>
-<wire x1="-53.34" y1="43.18" x2="-64.77" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="20"/>
+<contactref element="16" pad="OUT"/>
+<wire x1="-53.34" y1="45.72" x2="-95.25" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="MTR1_IN1">
 <contactref element="MOTOR_1" pad="6"/>
@@ -3531,121 +3531,116 @@ design rules under a new name.</description>
 <wire x1="-28.65" y1="95.25" x2="-33.274" y2="106.68" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="LS1">
-<contactref element="SLAVE_LIGHT" pad="14"/>
-<contactref element="LIGHT_SENSOR_CONNECTOR" pad="1"/>
-<wire x1="-34.29" y1="30.48" x2="-116.84" y2="66.929" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="LS2">
 <contactref element="SLAVE_LIGHT" pad="15"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="2"/>
 <wire x1="-34.29" y1="33.02" x2="-116.84" y2="72.771" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS3">
+<signal name="LS2">
 <contactref element="SLAVE_LIGHT" pad="16"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="3"/>
 <wire x1="-34.29" y1="35.56" x2="-114.3" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS4">
+<signal name="LS3">
 <contactref element="SLAVE_LIGHT" pad="17"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="4"/>
 <wire x1="-34.29" y1="38.1" x2="-114.3" y2="72.771" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS5">
+<signal name="LS4">
 <contactref element="SLAVE_LIGHT" pad="18"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="5"/>
 <wire x1="-34.29" y1="40.64" x2="-111.76" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS6">
+<signal name="LS5">
 <contactref element="SLAVE_LIGHT" pad="19"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="6"/>
 <wire x1="-34.29" y1="43.18" x2="-111.76" y2="72.771" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS7">
+<signal name="LS6">
 <contactref element="SLAVE_LIGHT" pad="20"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="7"/>
 <wire x1="-34.29" y1="45.72" x2="-109.22" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS8">
+<signal name="LS7">
 <contactref element="SLAVE_LIGHT" pad="21"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="8"/>
 <wire x1="-34.29" y1="48.26" x2="-109.22" y2="72.771" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS9">
+<signal name="LS8">
 <contactref element="SLAVE_LIGHT" pad="22"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="9"/>
 <wire x1="-34.29" y1="50.8" x2="-106.68" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS10">
+<signal name="LS9">
 <contactref element="SLAVE_LIGHT" pad="23"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="10"/>
 <wire x1="-34.29" y1="53.34" x2="-106.68" y2="72.771" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS11">
+<signal name="LS10">
 <contactref element="SLAVE_LIGHT" pad="A10"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="11"/>
 <wire x1="-36.83" y1="50.8" x2="-104.14" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS12">
+<signal name="LS11">
 <contactref element="SLAVE_LIGHT" pad="A11"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="12"/>
 <wire x1="-36.83" y1="48.26" x2="-104.14" y2="72.771" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS13">
+<signal name="LS12">
 <contactref element="SLAVE_LIGHT" pad="31"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="13"/>
 <wire x1="-101.6" y1="66.929" x2="-49.53" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS14">
+<signal name="LS13">
 <contactref element="SLAVE_LIGHT" pad="32"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="14"/>
 <wire x1="-101.6" y1="72.771" x2="-49.53" y2="2.54" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS15">
+<signal name="LS14">
 <contactref element="SLAVE_LIGHT" pad="33"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="15"/>
 <wire x1="-34.29" y1="2.54" x2="-99.06" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS16">
+<signal name="LS15">
 <contactref element="SLAVE_LIGHT" pad="34"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="16"/>
 <wire x1="-99.06" y1="72.771" x2="-34.29" y2="5.08" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS17">
+<signal name="LS16">
 <contactref element="SLAVE_LIGHT" pad="35"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="17"/>
 <wire x1="-34.29" y1="7.62" x2="-96.52" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS18">
+<signal name="LS17">
 <contactref element="SLAVE_LIGHT" pad="36"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="18"/>
 <wire x1="-34.29" y1="10.16" x2="-96.52" y2="72.771" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS19">
+<signal name="LS18">
 <contactref element="SLAVE_LIGHT" pad="37"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="19"/>
 <wire x1="-34.29" y1="12.7" x2="-93.98" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS20">
+<signal name="LS19">
 <contactref element="SLAVE_LIGHT" pad="38"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="20"/>
 <wire x1="-34.29" y1="15.24" x2="-93.98" y2="72.771" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS21">
+<signal name="LS20">
 <contactref element="SLAVE_LIGHT" pad="39"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="21"/>
 <wire x1="-34.29" y1="17.78" x2="-91.44" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS22">
+<signal name="LS21">
 <contactref element="SLAVE_LIGHT" pad="DA0"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="22"/>
 <wire x1="-34.29" y1="20.32" x2="-91.44" y2="72.771" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS23">
+<signal name="LS22">
 <contactref element="SLAVE_LIGHT" pad="DA1"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="23"/>
 <wire x1="-34.29" y1="22.86" x2="-88.9" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="LS24">
+<signal name="LS23">
 <contactref element="SLAVE_LIGHT" pad="49"/>
 <contactref element="LIGHT_SENSOR_CONNECTOR" pad="24"/>
 <wire x1="-88.9" y1="72.771" x2="-39.37" y2="10.16" width="0" layer="19" extent="1-1"/>
@@ -3757,44 +3752,39 @@ design rules under a new name.</description>
 <wire x1="-96.52" y1="106.61" x2="-31.33" y2="133.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP17">
-<contactref element="TSOP17" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="20"/>
-<wire x1="-53.34" y1="45.72" x2="-74.93" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="21"/>
+<contactref element="17" pad="OUT"/>
+<wire x1="-53.34" y1="48.26" x2="-105.41" y2="116.84" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP18">
-<contactref element="TSOP18" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="21"/>
-<wire x1="-53.34" y1="48.26" x2="-85.09" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="22"/>
+<contactref element="18" pad="OUT"/>
+<wire x1="-53.34" y1="50.8" x2="-13.97" y2="123.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP19">
-<contactref element="TSOP19" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="22"/>
-<wire x1="-53.34" y1="50.8" x2="-95.25" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="23"/>
+<contactref element="19" pad="OUT"/>
+<wire x1="-53.34" y1="53.34" x2="-24.13" y2="123.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP20">
-<contactref element="TSOP20" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="23"/>
-<wire x1="-53.34" y1="53.34" x2="-105.41" y2="123.19" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="24"/>
+<contactref element="20" pad="OUT"/>
+<wire x1="-68.58" y1="22.86" x2="-34.29" y2="123.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP21">
-<contactref element="TSOP21" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="24"/>
-<wire x1="-68.58" y1="22.86" x2="-13.97" y2="129.54" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="25"/>
+<contactref element="21" pad="OUT"/>
+<wire x1="-68.58" y1="20.32" x2="-44.45" y2="123.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP22">
-<contactref element="TSOP22" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="25"/>
-<wire x1="-68.58" y1="20.32" x2="-24.13" y2="129.54" width="0" layer="19" extent="1-1"/>
+<contactref element="SLAVE_TSOP" pad="26"/>
+<contactref element="22" pad="OUT"/>
+<wire x1="-68.58" y1="17.78" x2="-54.61" y2="123.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="TSOP23">
-<contactref element="TSOP23" pad="OUT"/>
-<contactref element="SLAVE_TSOP" pad="26"/>
-<wire x1="-68.58" y1="17.78" x2="-34.29" y2="129.54" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="TSOP24">
-<contactref element="TSOP24" pad="OUT"/>
 <contactref element="SLAVE_TSOP" pad="27"/>
-<wire x1="-68.58" y1="15.24" x2="-44.45" y2="129.54" width="0" layer="19" extent="1-1"/>
+<contactref element="23" pad="OUT"/>
+<wire x1="-68.58" y1="15.24" x2="-64.77" y2="123.19" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIP1">
 <contactref element="SW1" pad="8"/>
@@ -3917,6 +3907,16 @@ design rules under a new name.</description>
 </signal>
 <signal name="LED_4">
 <contactref element="MASTER" pad="53"/>
+</signal>
+<signal name="TSOP0">
+<contactref element="SLAVE_TSOP" pad="0"/>
+<contactref element="0" pad="OUT"/>
+<wire x1="-68.58" y1="58.42" x2="-13.97" y2="116.84" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LS0">
+<contactref element="SLAVE_LIGHT" pad="14"/>
+<contactref element="LIGHT_SENSOR_CONNECTOR" pad="1"/>
+<wire x1="-34.29" y1="30.48" x2="-116.84" y2="66.929" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

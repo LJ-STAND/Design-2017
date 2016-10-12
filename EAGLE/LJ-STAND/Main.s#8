@@ -8736,6 +8736,8 @@ Source: http://www.osram.convergy.de/</description>
 <part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
 <part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
 <part name="U$1" library="adafruit" deviceset="XBEE" device=""/>
+<part name="GND94" library="supply1" deviceset="GND" device=""/>
+<part name="+3V22" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8983,6 +8985,8 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="LED3" gate="G$1" x="-48.26" y="454.66"/>
 <instance part="LED4" gate="G$1" x="-38.1" y="454.66"/>
 <instance part="U$1" gate="G$1" x="355.6" y="386.08"/>
+<instance part="GND94" gate="1" x="330.2" y="370.84"/>
+<instance part="+3V22" gate="G$1" x="330.2" y="398.78"/>
 </instances>
 <busses>
 </busses>
@@ -9620,6 +9624,7 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <wire x1="332.74" y1="373.38" x2="330.2" y2="373.38" width="0.1524" layer="91"/>
+<pinref part="GND94" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="MOTOR_PWR" class="0">
@@ -9850,6 +9855,11 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="134.62" y1="175.26" x2="139.7" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="175.26" x2="139.7" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="+3V21" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="332.74" y1="396.24" x2="330.2" y2="396.24" width="0.1524" layer="91"/>
+<pinref part="+3V22" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -11469,12 +11479,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="U$1" gate="G$1" pin="DIN"/>
 <wire x1="332.74" y1="391.16" x2="330.2" y2="388.62" width="0.1524" layer="91"/>
 <label x="330.2" y="388.62" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="VCC" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="332.74" y1="396.24" x2="330.2" y2="396.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

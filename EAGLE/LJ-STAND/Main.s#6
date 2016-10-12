@@ -8735,7 +8735,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
 <part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
 <part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
-<part name="U$1" library="adafruit" deviceset="XBEE" device=""/>
+<part name="XBEE" library="adafruit" deviceset="XBEE" device=""/>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
 <part name="+3V22" library="supply1" deviceset="+3V3" device=""/>
 </parts>
@@ -8984,7 +8984,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="LED2" gate="G$1" x="-58.42" y="454.66"/>
 <instance part="LED3" gate="G$1" x="-48.26" y="454.66"/>
 <instance part="LED4" gate="G$1" x="-38.1" y="454.66"/>
-<instance part="U$1" gate="G$1" x="355.6" y="386.08"/>
+<instance part="XBEE" gate="G$1" x="355.6" y="386.08"/>
 <instance part="GND94" gate="1" x="330.2" y="370.84"/>
 <instance part="+3V22" gate="G$1" x="330.2" y="401.32"/>
 </instances>
@@ -9622,7 +9622,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="GND93" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="XBEE" gate="G$1" pin="GND"/>
 <wire x1="332.74" y1="373.38" x2="330.2" y2="373.38" width="0.1524" layer="91"/>
 <pinref part="GND94" gate="1" pin="GND"/>
 </segment>
@@ -9857,7 +9857,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="+3V21" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="XBEE" gate="G$1" pin="VCC"/>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
 <wire x1="332.74" y1="396.24" x2="330.2" y2="396.24" width="0.1524" layer="91"/>
 <wire x1="330.2" y1="396.24" x2="330.2" y2="398.78" width="0.1524" layer="91"/>
@@ -11465,7 +11465,7 @@ Source: http://www.osram.convergy.de/</description>
 <label x="388.62" y="205.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="DOUT"/>
+<pinref part="XBEE" gate="G$1" pin="DOUT"/>
 <wire x1="332.74" y1="393.7" x2="330.2" y2="393.7" width="0.1524" layer="91"/>
 <label x="330.2" y="393.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11477,7 +11477,7 @@ Source: http://www.osram.convergy.de/</description>
 <label x="388.62" y="200.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="DIN"/>
+<pinref part="XBEE" gate="G$1" pin="DIN"/>
 <wire x1="332.74" y1="391.16" x2="330.2" y2="388.62" width="0.1524" layer="91"/>
 <label x="330.2" y="388.62" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>

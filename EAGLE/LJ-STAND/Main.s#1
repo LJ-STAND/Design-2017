@@ -8513,11 +8513,11 @@ Source: http://www.osram.convergy.de/</description>
 <part name="VREG-3.3V" library="linear" deviceset="LM340?-*" device="S" technology="05" value="LM1084"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="PWR_IN" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="PWR_IN" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF Tantalum"/>
-<part name="MOTOR_SWITCH" library="jst-vh" deviceset="B2P-VH" device=""/>
-<part name="LOGIC_SWITCH" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="MOTOR_SWITCH" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
+<part name="LOGIC_SWITCH" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
 <part name="MASTER" library="teensy-3.5" deviceset="TEENSY-3.5" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
@@ -8597,7 +8597,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR1_OUT" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="MTR1_OUT" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
 <part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
@@ -8609,7 +8609,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR2_OUT" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="MTR2_OUT" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
 <part name="C30" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C31" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
@@ -8621,7 +8621,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="C34" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR3_OUT" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="MTR3_OUT" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>

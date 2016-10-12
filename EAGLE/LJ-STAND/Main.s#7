@@ -8986,7 +8986,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="LED4" gate="G$1" x="-38.1" y="454.66"/>
 <instance part="U$1" gate="G$1" x="355.6" y="386.08"/>
 <instance part="GND94" gate="1" x="330.2" y="370.84"/>
-<instance part="+3V22" gate="G$1" x="330.2" y="398.78"/>
+<instance part="+3V22" gate="G$1" x="330.2" y="401.32"/>
 </instances>
 <busses>
 </busses>
@@ -9858,8 +9858,9 @@ Source: http://www.osram.convergy.de/</description>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="332.74" y1="396.24" x2="330.2" y2="396.24" width="0.1524" layer="91"/>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
+<wire x1="332.74" y1="396.24" x2="330.2" y2="396.24" width="0.1524" layer="91"/>
+<wire x1="330.2" y1="396.24" x2="330.2" y2="398.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">

@@ -8980,10 +8980,10 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="BLUETOOTH" gate="G$1" x="127" y="182.88"/>
 <instance part="+3V21" gate="G$1" x="139.7" y="180.34"/>
 <instance part="GND93" gate="1" x="144.78" y="177.8"/>
-<instance part="LED1" gate="G$1" x="-71.12" y="454.66"/>
-<instance part="LED2" gate="G$1" x="-58.42" y="454.66"/>
-<instance part="LED3" gate="G$1" x="-48.26" y="454.66"/>
-<instance part="LED4" gate="G$1" x="-38.1" y="454.66"/>
+<instance part="LED1" gate="G$1" x="231.14" y="304.8"/>
+<instance part="LED2" gate="G$1" x="243.84" y="304.8"/>
+<instance part="LED3" gate="G$1" x="254" y="304.8"/>
+<instance part="LED4" gate="G$1" x="264.16" y="304.8"/>
 <instance part="XBEE" gate="G$1" x="355.6" y="386.08"/>
 <instance part="GND94" gate="1" x="330.2" y="370.84"/>
 <instance part="+3V22" gate="G$1" x="330.2" y="401.32"/>
