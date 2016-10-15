@@ -377,3 +377,11 @@ Number=0
 [Desktop]
 Screen="2960 1294"
 Window="Win_1"
+ontrol Panel"
+Loc="532 306 1131 705"
+State=3
+Number=0
+
+[Desktop]
+Screen="2960 1294"
+Window="Win_1"
