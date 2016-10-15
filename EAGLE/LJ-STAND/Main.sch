@@ -1143,6 +1143,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="21"/>
 <wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="21"/>
 <wire x1="-5.08" y1="-7.62" x2="-5.08" y2="2.54" width="0.254" layer="21"/>
+<text x="-5.08" y="-9.525" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -9686,9 +9687,10 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="GND92" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="182.88" x2="144.78" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="182.88" x2="144.78" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="GND93" gate="1" pin="GND"/>
+<pinref part="BLUETOOTH" gate="G$1" pin="3"/>
+<wire x1="132.08" y1="182.88" x2="144.78" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="332.74" y1="373.38" x2="330.2" y2="373.38" width="0.1524" layer="91"/>
@@ -9938,11 +9940,12 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="+3V20" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="180.34" x2="134.62" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="180.34" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="175.26" x2="139.7" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="175.26" x2="139.7" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="+3V21" gate="G$1" pin="+3V3"/>
+<pinref part="BLUETOOTH" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="180.34" x2="134.62" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
@@ -11208,12 +11211,6 @@ Source: http://www.osram.convergy.de/</description>
 <label x="322.58" y="256.54" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="SW1" gate="A" pin="6"/>
-<wire x1="170.18" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="DIP2" class="0">
 <segment>
 <wire x1="182.88" y1="119.38" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
@@ -11233,12 +11230,14 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="DIP3" class="0">
 <segment>
-<wire x1="195.58" y1="116.84" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="116.84" x2="200.66" y2="132.08" width="0.1524" layer="91"/>
 <label x="200.66" y="132.08" size="1.778" layer="95" rot="R90" xref="yes"/>
-<junction x="195.58" y="116.84"/>
+<pinref part="SW1" gate="A" pin="6"/>
+<wire x1="200.66" y1="116.84" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="195.58" y1="116.84" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="119.38" x2="195.58" y2="116.84" width="0.1524" layer="91"/>
+<junction x="195.58" y="116.84"/>
 </segment>
 <segment>
 <pinref part="MASTER" gate="G$1" pin="26"/>

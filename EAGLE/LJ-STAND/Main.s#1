@@ -1143,6 +1143,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="21"/>
 <wire x1="5.08" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="21"/>
 <wire x1="-5.08" y1="-7.62" x2="-5.08" y2="2.54" width="0.254" layer="21"/>
+<text x="-5.08" y="-9.525" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -8716,12 +8717,12 @@ Source: http://www.osram.convergy.de/</description>
 <part name="GND74" library="supply1" deviceset="GND" device=""/>
 <part name="MOTOR_FUSE" library="fuse-holder-3568" deviceset="3568-FUSEHOLDER" device="" value="7.5A"/>
 <part name="LOGIC_FUSE" library="fuse-holder-3568" deviceset="3568-FUSEHOLDER" device="" value="2A"/>
-<part name="Q2" library="m-pad-2.1" deviceset="BSS138" device=""/>
+<part name="SDA" library="m-pad-2.1" deviceset="BSS138" device=""/>
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
-<part name="Q1" library="m-pad-2.1" deviceset="BSS138" device=""/>
+<part name="SCL" library="m-pad-2.1" deviceset="BSS138" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
@@ -8972,12 +8973,12 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND74" gate="1" x="-15.24" y="198.12"/>
 <instance part="MOTOR_FUSE" gate="G$1" x="-12.7" y="129.54"/>
 <instance part="LOGIC_FUSE" gate="G$1" x="-12.7" y="111.76"/>
-<instance part="Q2" gate="G$1" x="50.8" y="236.22" rot="R270"/>
+<instance part="SDA" gate="G$1" x="50.8" y="236.22" rot="R270"/>
 <instance part="R5" gate="G$1" x="43.18" y="241.3" rot="R90"/>
 <instance part="R6" gate="G$1" x="58.42" y="241.3" rot="R90"/>
 <instance part="+3V10" gate="G$1" x="43.18" y="254"/>
 <instance part="P+4" gate="1" x="58.42" y="254"/>
-<instance part="Q1" gate="G$1" x="50.8" y="198.12" rot="R270"/>
+<instance part="SCL" gate="G$1" x="50.8" y="198.12" rot="R270"/>
 <instance part="R7" gate="G$1" x="43.18" y="203.2" rot="R90"/>
 <instance part="R8" gate="G$1" x="58.42" y="203.2" rot="R90"/>
 <instance part="+3V11" gate="G$1" x="43.18" y="215.9"/>
@@ -9686,9 +9687,10 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="GND92" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="182.88" x2="144.78" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="182.88" x2="144.78" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="GND93" gate="1" pin="GND"/>
+<pinref part="BLUETOOTH" gate="G$1" pin="3"/>
+<wire x1="132.08" y1="182.88" x2="144.78" y2="182.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="332.74" y1="373.38" x2="330.2" y2="373.38" width="0.1524" layer="91"/>
@@ -9876,7 +9878,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="246.38" x2="43.18" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="251.46" x2="43.18" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="G"/>
+<pinref part="SDA" gate="G$1" pin="G"/>
 <wire x1="43.18" y1="248.92" x2="48.26" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="248.92" x2="48.26" y2="241.3" width="0.1524" layer="91"/>
 <junction x="43.18" y="248.92"/>
@@ -9886,7 +9888,7 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="208.28" x2="43.18" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="213.36" x2="43.18" y2="210.82" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
+<pinref part="SCL" gate="G$1" pin="G"/>
 <wire x1="43.18" y1="210.82" x2="48.26" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="48.26" y1="210.82" x2="48.26" y2="203.2" width="0.1524" layer="91"/>
 <junction x="43.18" y="210.82"/>
@@ -9938,11 +9940,12 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="+3V20" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="180.34" x2="134.62" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="180.34" x2="134.62" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="175.26" x2="139.7" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="175.26" x2="139.7" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="+3V21" gate="G$1" pin="+3V3"/>
+<pinref part="BLUETOOTH" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="180.34" x2="134.62" y2="180.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
@@ -11520,7 +11523,7 @@ Source: http://www.osram.convergy.de/</description>
 <label x="208.28" y="246.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="S"/>
+<pinref part="SDA" gate="G$1" pin="S"/>
 <wire x1="45.72" y1="233.68" x2="43.18" y2="233.68" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="233.68" x2="43.18" y2="236.22" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
@@ -11556,7 +11559,7 @@ Source: http://www.osram.convergy.de/</description>
 <label x="205.74" y="241.3" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
+<pinref part="SCL" gate="G$1" pin="S"/>
 <wire x1="45.72" y1="195.58" x2="43.18" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="195.58" x2="43.18" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -11577,7 +11580,7 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="SCL_5V" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="D"/>
+<pinref part="SCL" gate="G$1" pin="D"/>
 <wire x1="55.88" y1="195.58" x2="58.42" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="195.58" x2="58.42" y2="198.12" width="0.1524" layer="91"/>
@@ -11593,7 +11596,7 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="SDA_5V" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
+<pinref part="SDA" gate="G$1" pin="D"/>
 <wire x1="55.88" y1="233.68" x2="58.42" y2="233.68" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="233.68" x2="58.42" y2="236.22" width="0.1524" layer="91"/>

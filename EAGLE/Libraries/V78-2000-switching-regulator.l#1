@@ -80,6 +80,23 @@
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="V78-2000">
+<gates>
+<gate name="G$1" symbol="V78-2000" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="V78-2000">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
