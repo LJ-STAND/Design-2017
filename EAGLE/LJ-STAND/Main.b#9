@@ -5912,8 +5912,6 @@ design rules under a new name.</description>
 <wire x1="56.642" y1="157.48" x2="56.642" y2="156.718" width="0.508" layer="1"/>
 <via x="56.642" y="156.718" extent="1-16" drill="0.412"/>
 <wire x1="56.642" y1="156.718" x2="58.674" y2="154.686" width="0.508" layer="16"/>
-<wire x1="58.674" y1="154.686" x2="58.674" y2="150.876" width="0" layer="19" extent="1-16"/>
-<via x="59.055" y="150.495" extent="1-16" drill="0.412"/>
 <via x="64.516" y="155.956" extent="1-16" drill="0.412"/>
 <wire x1="64.516" y1="155.956" x2="65.532" y2="154.94" width="0.508" layer="16"/>
 <wire x1="65.532" y1="154.94" x2="65.532" y2="151.384" width="0.508" layer="16"/>
@@ -5939,11 +5937,10 @@ design rules under a new name.</description>
 <wire x1="80.01" y1="147.828" x2="80.518" y2="147.32" width="0.508" layer="16"/>
 <wire x1="80.518" y1="147.32" x2="82.55" y2="147.32" width="0.508" layer="16"/>
 <wire x1="82.55" y1="147.32" x2="83.82" y2="148.59" width="0.508" layer="16"/>
-<wire x1="64.516" y1="155.956" x2="59.055" y2="150.495" width="0.508" layer="1"/>
-<wire x1="59.055" y1="150.495" x2="58.674" y2="150.876" width="0.508" layer="1"/>
-<wire x1="58.674" y1="150.876" x2="58.674" y2="154.686" width="0.508" layer="1"/>
-<wire x1="58.674" y1="154.686" x2="58.674" y2="154.686" width="0" layer="19" extent="1-16"/>
+<wire x1="64.516" y1="155.956" x2="59.817" y2="151.257" width="0.508" layer="1"/>
 <via x="58.674" y="154.686" extent="1-16" drill="0.412"/>
+<wire x1="59.817" y1="151.257" x2="58.674" y2="152.4" width="0.508" layer="1"/>
+<wire x1="58.674" y1="152.4" x2="58.674" y2="154.686" width="0.508" layer="1"/>
 </signal>
 <signal name="MISO">
 <contactref element="MASTER" pad="12"/>
