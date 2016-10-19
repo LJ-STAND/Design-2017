@@ -371,7 +371,7 @@ UsedLibrary="C:/Program Files/Eagle/app/eagle-7.2.0/lbr/SparkFun-Eagle-Libraries
 [Win_1]
 Type="Schematic Editor"
 Loc="532 306 1131 705"
-State=0
+State=2
 Number=2
 File="Main.sch"
 View="-308.87 82.0003 688.642 409.964"
@@ -413,6 +413,7 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=91
+Views=" 1: -308.87 82.0003 688.642 409.964"
 Sheet="1"
 
 [Win_2]
@@ -422,6 +423,6 @@ State=1
 Number=0
 
 [Desktop]
-Screen="2960 1294"
+Screen="2560 1600"
 Window="Win_1"
 Window="Win_2"
