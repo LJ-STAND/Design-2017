@@ -4440,7 +4440,7 @@ design rules under a new name.</description>
 <wire x1="19.532921875" y1="212.51" x2="27.11118125" y2="226.03881875" width="0" layer="19" extent="1-1"/>
 <wire x1="57.15" y1="235.585" x2="58.801" y2="237.236" width="0.508" layer="1"/>
 <wire x1="58.801" y1="237.236" x2="62.992" y2="237.236" width="0.508" layer="1"/>
-<via x="62.992" y="237.236" extent="1-16" drill="0.6" shape="square"/>
+<via x="62.992" y="237.236" extent="1-16" drill="0.4064"/>
 <wire x1="62.992" y1="237.236" x2="63.246" y2="236.982" width="0.508" layer="16"/>
 <wire x1="63.246" y1="236.982" x2="65.405" y2="236.982" width="0.508" layer="16"/>
 </signal>
