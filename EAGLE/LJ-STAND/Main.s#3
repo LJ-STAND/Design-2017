@@ -8187,6 +8187,7 @@ Source: http://www.osram.convergy.de/</description>
 <part name="MASTER" library="teensy-3.5" deviceset="TEENSY-3.5" device=""/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -8424,6 +8425,7 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="MASTER" gate="G$1" x="355.6" y="236.22"/>
 <instance part="GND10" gate="1" x="302.26" y="330.2"/>
 <instance part="GND11" gate="1" x="393.7" y="325.12"/>
+<instance part="GND12" gate="1" x="391.16" y="259.08"/>
 <instance part="GND13" gate="1" x="302.26" y="208.28"/>
 <instance part="GND14" gate="1" x="322.58" y="152.4"/>
 <instance part="GND15" gate="1" x="355.6" y="119.38"/>
@@ -8696,6 +8698,11 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="MASTER" gate="G$1" pin="AGND"/>
 <wire x1="386.08" y1="327.66" x2="393.7" y2="327.66" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="MASTER" gate="G$1" pin="GND-1"/>
+<wire x1="386.08" y1="261.62" x2="391.16" y2="261.62" width="0.1524" layer="91"/>
+<pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="MASTER" gate="G$1" pin="GND-3"/>

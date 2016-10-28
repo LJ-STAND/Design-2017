@@ -11498,10 +11498,6 @@ Source: http://www.osram.convergy.de/</description>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="MASTER" gate="G$1" pin="38/A19/PWM/SDA1"/>
-<wire x1="386.08" y1="241.3" x2="388.62" y2="241.3" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="SLAVE_TSOP" gate="G$1" pin="38/A19/PWM/SDA1"/>
 <wire x1="515.62" y1="241.3" x2="518.16" y2="241.3" width="0.1524" layer="91"/>
 <label x="518.16" y="241.3" size="1.778" layer="95" xref="yes"/>

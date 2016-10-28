@@ -10699,56 +10699,6 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <pinref part="MASTER" gate="G$1" pin="24"/>
 <wire x1="325.12" y1="256.54" x2="322.58" y2="256.54" width="0.1524" layer="91"/>
-<label x="322.58" y="256.54" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="DIP2" class="0">
-<segment>
-<pinref part="MASTER" gate="G$1" pin="25"/>
-<wire x1="325.12" y1="251.46" x2="322.58" y2="251.46" width="0.1524" layer="91"/>
-<label x="322.58" y="251.46" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="DIP3" class="0">
-<segment>
-<pinref part="MASTER" gate="G$1" pin="26"/>
-<wire x1="325.12" y1="246.38" x2="322.58" y2="246.38" width="0.1524" layer="91"/>
-<label x="322.58" y="246.38" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="DIP4" class="0">
-<segment>
-<pinref part="MASTER" gate="G$1" pin="27"/>
-<wire x1="325.12" y1="241.3" x2="322.58" y2="241.3" width="0.1524" layer="91"/>
-<label x="322.58" y="241.3" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="DIP5" class="0">
-<segment>
-<pinref part="MASTER" gate="G$1" pin="28"/>
-<wire x1="325.12" y1="236.22" x2="322.58" y2="236.22" width="0.1524" layer="91"/>
-<label x="322.58" y="236.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="DIP6" class="0">
-<segment>
-<pinref part="MASTER" gate="G$1" pin="29/PWM"/>
-<wire x1="325.12" y1="231.14" x2="322.58" y2="231.14" width="0.1524" layer="91"/>
-<label x="322.58" y="231.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="DIP7" class="0">
-<segment>
-<pinref part="MASTER" gate="G$1" pin="30/PWM"/>
-<wire x1="325.12" y1="226.06" x2="322.58" y2="226.06" width="0.1524" layer="91"/>
-<label x="322.58" y="226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="DIP8" class="0">
-<segment>
-<pinref part="MASTER" gate="G$1" pin="31/A12/RX4/CS1"/>
-<wire x1="325.12" y1="220.98" x2="322.58" y2="220.98" width="0.1524" layer="91"/>
-<label x="322.58" y="220.98" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="BT_TX" class="0">
