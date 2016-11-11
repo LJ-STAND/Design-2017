@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="10" altunitdist="mil" altunit="mil"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -7891,6 +7891,11 @@
 <text x="152.4" y="147.574" size="1.016" layer="25" font="vector">BRISBANE BOYS' COLLEGE</text>
 <text x="157.988" y="145.542" size="1.016" layer="25" font="vector">AUSTRALIA</text>
 <text x="137.16" y="150.368" size="1.016" layer="25" font="vector">Designed by James Yelland</text>
+<hole x="126.0576" y="143.3004" drill="3.2"/>
+<hole x="171.3266" y="143.3055" drill="3.2"/>
+<hole x="171.3234" y="67.3012" drill="3.2"/>
+<hole x="126.0609" y="67.2964" drill="3.2"/>
+<text x="165.597" y="67.3384" size="1.27" layer="21">1</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
@@ -11318,18 +11323,16 @@ design rules under a new name.</description>
 <wire x1="118.1608" y1="65.913" x2="121.2596" y2="65.913" width="0.3048" layer="16"/>
 <wire x1="121.2596" y1="65.913" x2="121.9962" y2="66.6496" width="0.3048" layer="16"/>
 <wire x1="121.9962" y1="66.6496" x2="122.4788" y2="66.6496" width="0.3048" layer="16"/>
-<wire x1="122.4788" y1="66.6496" x2="122.8598" y2="67.0306" width="0.3048" layer="16"/>
-<wire x1="122.8598" y1="67.0306" x2="123.4186" y2="67.0306" width="0.3048" layer="16"/>
-<wire x1="123.4186" y1="67.0306" x2="124.0282" y2="67.6402" width="0.3048" layer="16"/>
-<wire x1="124.0282" y1="67.6402" x2="124.0282" y2="68.8086" width="0.3048" layer="16"/>
-<wire x1="124.0282" y1="68.8086" x2="124.8156" y2="69.596" width="0.3048" layer="16"/>
-<wire x1="124.8156" y1="69.596" x2="130.937" y2="69.596" width="0.3048" layer="16"/>
 <wire x1="130.937" y1="69.596" x2="133.8834" y2="66.6496" width="0.3048" layer="16"/>
 <wire x1="133.8834" y1="66.6496" x2="139.2682" y2="66.6496" width="0.3048" layer="16"/>
 <wire x1="139.2682" y1="66.6496" x2="141.2494" y2="64.6684" width="0.3048" layer="16"/>
 <via x="141.2494" y="64.6684" extent="1-16" drill="0.381"/>
 <wire x1="141.2494" y1="64.6684" x2="141.2494" y2="62.0522" width="0.3048" layer="1"/>
 <wire x1="141.2494" y1="62.0522" x2="141.1732" y2="61.976" width="0.3048" layer="1"/>
+<wire x1="130.937" y1="69.596" x2="124.333" y2="69.596" width="0.3048" layer="16"/>
+<wire x1="124.333" y1="69.596" x2="123.3932" y2="68.6562" width="0.3048" layer="16"/>
+<wire x1="123.3932" y1="68.6562" x2="123.3932" y2="67.564" width="0.3048" layer="16"/>
+<wire x1="123.3932" y1="67.564" x2="122.4788" y2="66.6496" width="0.3048" layer="16"/>
 </signal>
 <signal name="LS21">
 <contactref element="LS21" pad="E"/>

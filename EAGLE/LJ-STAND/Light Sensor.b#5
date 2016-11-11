@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="10" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -7882,6 +7882,14 @@
 <wire x1="124.47521875" y1="67.0867875" x2="124.46429375" y2="67.1943625" width="0" layer="20"/>
 <wire x1="124.46429375" y1="67.1943625" x2="124.461496875" y2="67.2489375" width="0" layer="20"/>
 <wire x1="124.461496875" y1="67.2489375" x2="124.461496875" y2="67.35939375" width="0" layer="20"/>
+<text x="131.318" y="148.59" size="1.778" layer="25" font="vector">LJ STAND</text>
+<text x="131.318" y="147.574" size="0.762" layer="25" font="vector">Lachan Grant</text>
+<text x="131.318" y="146.558" size="0.762" layer="25" font="vector">James Yelland</text>
+<text x="131.318" y="145.542" size="0.762" layer="25" font="vector">James Wallington</text>
+<text x="131.318" y="144.526" size="0.762" layer="25" font="vector">Sam Tudor</text>
+<text x="131.318" y="143.51" size="0.762" layer="25" font="vector">Nakul Doshi</text>
+<text x="147.828" y="150.114" size="1.016" layer="25" font="vector">BRISBANE BOYS' COLLEGE</text>
+<text x="153.416" y="148.336" size="1.016" layer="25" font="vector">AUSTRALIA</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
