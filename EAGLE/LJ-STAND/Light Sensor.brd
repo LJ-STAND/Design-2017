@@ -13,7 +13,7 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -5054,6 +5054,7 @@
 <wire x1="144.2437875" y1="164.64025" x2="144.369809375" y2="164.6494375" width="0" layer="20"/>
 <wire x1="144.369809375" y1="164.6494375" x2="144.495934375" y2="164.658234375" width="0" layer="20"/>
 <wire x1="144.495934375" y1="164.658234375" x2="144.6220625" y2="164.66703125" width="0" layer="20"/>
+<wire x1="144.6220625" y1="164.66703125" x2="144.748296875" y2="164.67543125" width="0" layer="20"/>
 <wire x1="144.748296875" y1="164.67543125" x2="144.874640625" y2="164.683440625" width="0" layer="20"/>
 <wire x1="144.874640625" y1="164.683440625" x2="145.000984375" y2="164.691446875" width="0" layer="20"/>
 <wire x1="145.000984375" y1="164.691446875" x2="145.12743125" y2="164.6990625" width="0" layer="20"/>
@@ -5593,6 +5594,7 @@
 <wire x1="202.117996875" y1="131.53249375" x2="202.170859375" y2="131.424478125" width="0" layer="20"/>
 <wire x1="202.170859375" y1="131.424478125" x2="202.22371875" y2="131.3164625" width="0" layer="20"/>
 <wire x1="202.22371875" y1="131.3164625" x2="202.2762625" y2="131.208259375" width="0" layer="20"/>
+<wire x1="202.2762625" y1="131.208259375" x2="202.3284875" y2="131.099878125" width="0" layer="20"/>
 <wire x1="202.3284875" y1="131.099878125" x2="202.3807125" y2="130.99149375" width="0" layer="20"/>
 <wire x1="202.3807125" y1="130.99149375" x2="202.432615625" y2="130.882928125" width="0" layer="20"/>
 <wire x1="202.432615625" y1="130.882928125" x2="202.484203125" y2="130.77418125" width="0" layer="20"/>
