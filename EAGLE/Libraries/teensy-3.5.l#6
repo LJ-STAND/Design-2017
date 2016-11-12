@@ -220,10 +220,6 @@
 <pin name="DEBUG" x="-63.5" y="-99.06" length="short"/>
 <pin name="DEBUG-1" x="-63.5" y="-104.14" length="short"/>
 <pin name="DEBUG-2" x="-63.5" y="-109.22" length="short"/>
-<pin name="GND-4" x="-63.5" y="-119.38" length="short"/>
-<pin name="GND-5" x="-63.5" y="-124.46" length="short"/>
-<pin name="A25" x="-63.5" y="-129.54" length="short"/>
-<pin name="A26" x="-63.5" y="-134.62" length="short"/>
 <pin name="54/CS2" x="-2.54" y="-99.06" length="short" rot="R180"/>
 <pin name="55" x="-2.54" y="-104.14" length="short" rot="R180"/>
 <pin name="56" x="-2.54" y="-109.22" length="short" rot="R180"/>
@@ -234,16 +230,27 @@
 <pin name="VUSB" x="-2.54" y="-134.62" length="short" rot="R180"/>
 <pin name="RESET" x="-43.18" y="-152.4" length="short" rot="R90"/>
 <pin name="PRGRM" x="-38.1" y="-152.4" length="short" rot="R90"/>
-<pin name="GND-6" x="-33.02" y="-152.4" length="short" rot="R90"/>
+<pin name="GND-4" x="-33.02" y="-152.4" length="short" rot="R90"/>
 <pin name="3.3V-3" x="-27.94" y="-152.4" length="short" rot="R90"/>
 <pin name="VBAT" x="-22.86" y="-152.4" length="short" rot="R90"/>
-<pin name="5V" x="-63.5" y="-139.7" length="short"/>
 <pin name="D+" x="-2.54" y="-139.7" length="short" rot="R180"/>
 <pin name="D-" x="-2.54" y="-144.78" length="short" rot="R180"/>
 <pin name="GND-3" x="-63.5" y="-114.3" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="TEENSY-3.5">
+<gates>
+<gate name="G$1" symbol="TEENSY-3.5" x="33.02" y="17.78"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

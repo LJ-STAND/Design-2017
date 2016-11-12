@@ -61,9 +61,9 @@
 <symbols>
 <symbol name="TEENSY-3.5">
 <wire x1="-60.96" y1="66.04" x2="-60.96" y2="-149.86" width="0.254" layer="94"/>
-<wire x1="-60.96" y1="-149.86" x2="-2.54" y2="-149.86" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-149.86" x2="-2.54" y2="66.04" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="66.04" x2="-60.96" y2="66.04" width="0.254" layer="94"/>
+<wire x1="-60.96" y1="-149.86" x2="-5.08" y2="-149.86" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-149.86" x2="-5.08" y2="66.04" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="66.04" x2="-60.96" y2="66.04" width="0.254" layer="94"/>
 <pin name="GND" x="-63.5" y="63.5" length="short"/>
 <pin name="0/RX1/MOSI1" x="-63.5" y="58.42" length="short"/>
 <pin name="1/TX1/MISO1" x="-63.5" y="53.34" length="short"/>
@@ -90,43 +90,43 @@
 <pin name="GND-2" x="-63.5" y="-58.42" length="short"/>
 <pin name="46/SCK2" x="-63.5" y="-63.5" length="short"/>
 <pin name="45/MISO2" x="-63.5" y="-68.58" length="short"/>
-<pin name="VIN" x="0" y="63.5" length="short" rot="R180"/>
-<pin name="AGND" x="0" y="58.42" length="short" rot="R180"/>
-<pin name="3.3V-1" x="0" y="53.34" length="short" rot="R180"/>
-<pin name="23/A9/PWM" x="0" y="48.26" length="short" rot="R180"/>
-<pin name="22/A8/PWM" x="0" y="43.18" length="short" rot="R180"/>
-<pin name="21/A7/PWM/CS0" x="0" y="38.1" length="short" rot="R180"/>
-<pin name="20/A6/PWM/CS0" x="0" y="33.02" length="short" rot="R180"/>
-<pin name="19/A5/SCL0" x="0" y="27.94" length="short" rot="R180"/>
-<pin name="18/A4/SDA0" x="0" y="22.86" length="short" rot="R180"/>
-<pin name="17/A3" x="0" y="17.78" length="short" rot="R180"/>
-<pin name="16/A2" x="0" y="12.7" length="short" rot="R180"/>
-<pin name="15/A1/CS0" x="0" y="7.62" length="short" rot="R180"/>
-<pin name="14/A0/PWM" x="0" y="2.54" length="short" rot="R180"/>
-<pin name="13/SCK0" x="0" y="-2.54" length="short" rot="R180"/>
-<pin name="GND-1" x="0" y="-7.62" length="short" rot="R180"/>
-<pin name="A22/DAC1" x="0" y="-12.7" length="short" rot="R180"/>
-<pin name="A21/DAC0" x="0" y="-17.78" length="short" rot="R180"/>
-<pin name="39/A20" x="0" y="-22.86" length="short" rot="R180"/>
-<pin name="38/A19/PWM/SDA1" x="0" y="-27.94" length="short" rot="R180"/>
-<pin name="37/A18/PWM/SCL1" x="0" y="-33.02" length="short" rot="R180"/>
-<pin name="36/A17/PWM" x="0" y="-38.1" length="short" rot="R180"/>
-<pin name="35/A16/PWM" x="0" y="-43.18" length="short" rot="R180"/>
-<pin name="34/A15/RX5" x="0" y="-48.26" length="short" rot="R180"/>
-<pin name="33/A14/TX5" x="0" y="-53.34" length="short" rot="R180"/>
-<pin name="3.3V-2" x="0" y="-58.42" length="short" rot="R180"/>
-<pin name="47/RX6" x="0" y="-63.5" length="short" rot="R180"/>
-<pin name="48/TX6" x="0" y="-68.58" length="short" rot="R180"/>
-<pin name="49/A23" x="0" y="-73.66" length="short" rot="R180"/>
-<pin name="50/A24" x="0" y="-78.74" length="short" rot="R180"/>
+<pin name="VIN" x="-2.54" y="63.5" length="short" rot="R180"/>
+<pin name="AGND" x="-2.54" y="58.42" length="short" rot="R180"/>
+<pin name="3.3V-1" x="-2.54" y="53.34" length="short" rot="R180"/>
+<pin name="23/A9/PWM" x="-2.54" y="48.26" length="short" rot="R180"/>
+<pin name="22/A8/PWM" x="-2.54" y="43.18" length="short" rot="R180"/>
+<pin name="21/A7/PWM/CS0" x="-2.54" y="38.1" length="short" rot="R180"/>
+<pin name="20/A6/PWM/CS0" x="-2.54" y="33.02" length="short" rot="R180"/>
+<pin name="19/A5/SCL0" x="-2.54" y="27.94" length="short" rot="R180"/>
+<pin name="18/A4/SDA0" x="-2.54" y="22.86" length="short" rot="R180"/>
+<pin name="17/A3" x="-2.54" y="17.78" length="short" rot="R180"/>
+<pin name="16/A2" x="-2.54" y="12.7" length="short" rot="R180"/>
+<pin name="15/A1/CS0" x="-2.54" y="7.62" length="short" rot="R180"/>
+<pin name="14/A0/PWM" x="-2.54" y="2.54" length="short" rot="R180"/>
+<pin name="13/SCK0" x="-2.54" y="-2.54" length="short" rot="R180"/>
+<pin name="GND-1" x="-2.54" y="-7.62" length="short" rot="R180"/>
+<pin name="A22/DAC1" x="-2.54" y="-12.7" length="short" rot="R180"/>
+<pin name="A21/DAC0" x="-2.54" y="-17.78" length="short" rot="R180"/>
+<pin name="39/A20" x="-2.54" y="-22.86" length="short" rot="R180"/>
+<pin name="38/A19/PWM/SDA1" x="-2.54" y="-27.94" length="short" rot="R180"/>
+<pin name="37/A18/PWM/SCL1" x="-2.54" y="-33.02" length="short" rot="R180"/>
+<pin name="36/A17/PWM" x="-2.54" y="-38.1" length="short" rot="R180"/>
+<pin name="35/A16/PWM" x="-2.54" y="-43.18" length="short" rot="R180"/>
+<pin name="34/A15/RX5" x="-2.54" y="-48.26" length="short" rot="R180"/>
+<pin name="33/A14/TX5" x="-2.54" y="-53.34" length="short" rot="R180"/>
+<pin name="3.3V-2" x="-2.54" y="-58.42" length="short" rot="R180"/>
+<pin name="47/RX6" x="-2.54" y="-63.5" length="short" rot="R180"/>
+<pin name="48/TX6" x="-2.54" y="-68.58" length="short" rot="R180"/>
+<pin name="49/A23" x="-2.54" y="-73.66" length="short" rot="R180"/>
+<pin name="50/A24" x="-2.54" y="-78.74" length="short" rot="R180"/>
 <pin name="44/MOSI2" x="-63.5" y="-73.66" length="short"/>
 <pin name="43/CS2" x="-63.5" y="-78.74" length="short"/>
 <pin name="42" x="-63.5" y="-83.82" length="short"/>
 <pin name="41" x="-63.5" y="-88.9" length="short"/>
 <pin name="40" x="-63.5" y="-93.98" length="short"/>
-<pin name="51" x="0" y="-83.82" length="short" rot="R180"/>
-<pin name="52" x="0" y="-88.9" length="short" rot="R180"/>
-<pin name="53" x="0" y="-93.98" length="short" rot="R180"/>
+<pin name="51" x="-2.54" y="-83.82" length="short" rot="R180"/>
+<pin name="52" x="-2.54" y="-88.9" length="short" rot="R180"/>
+<pin name="53" x="-2.54" y="-93.98" length="short" rot="R180"/>
 <pin name="3.3V" x="-63.5" y="-7.62" length="short"/>
 <text x="-60.96" y="68.58" size="1.778" layer="95" align="top-left">&gt;NAME</text>
 <pin name="DEBUG" x="-63.5" y="-99.06" length="short"/>
@@ -136,22 +136,22 @@
 <pin name="GND-5" x="-63.5" y="-124.46" length="short"/>
 <pin name="A25" x="-63.5" y="-129.54" length="short"/>
 <pin name="A26" x="-63.5" y="-134.62" length="short"/>
-<pin name="54/CS2" x="0" y="-99.06" length="short" rot="R180"/>
-<pin name="55" x="0" y="-104.14" length="short" rot="R180"/>
-<pin name="56" x="0" y="-109.22" length="short" rot="R180"/>
-<pin name="57" x="0" y="-114.3" length="short" rot="R180"/>
-<pin name="A11" x="0" y="-119.38" length="short" rot="R180"/>
-<pin name="A10" x="0" y="-124.46" length="short" rot="R180"/>
-<pin name="AREF" x="0" y="-129.54" length="short" rot="R180"/>
-<pin name="VUSB" x="0" y="-134.62" length="short" rot="R180"/>
-<pin name="RESET" x="-55.88" y="-152.4" length="short" rot="R90"/>
-<pin name="PRGRM" x="-50.8" y="-152.4" length="short" rot="R90"/>
-<pin name="GND-6" x="-45.72" y="-152.4" length="short" rot="R90"/>
-<pin name="3.3V-3" x="-40.64" y="-152.4" length="short" rot="R90"/>
-<pin name="VBAT" x="-35.56" y="-152.4" length="short" rot="R90"/>
+<pin name="54/CS2" x="-2.54" y="-99.06" length="short" rot="R180"/>
+<pin name="55" x="-2.54" y="-104.14" length="short" rot="R180"/>
+<pin name="56" x="-2.54" y="-109.22" length="short" rot="R180"/>
+<pin name="57" x="-2.54" y="-114.3" length="short" rot="R180"/>
+<pin name="A11" x="-2.54" y="-119.38" length="short" rot="R180"/>
+<pin name="A10" x="-2.54" y="-124.46" length="short" rot="R180"/>
+<pin name="AREF" x="-2.54" y="-129.54" length="short" rot="R180"/>
+<pin name="VUSB" x="-2.54" y="-134.62" length="short" rot="R180"/>
+<pin name="RESET" x="-43.18" y="-152.4" length="short" rot="R90"/>
+<pin name="PRGRM" x="-38.1" y="-152.4" length="short" rot="R90"/>
+<pin name="GND-6" x="-33.02" y="-152.4" length="short" rot="R90"/>
+<pin name="3.3V-3" x="-27.94" y="-152.4" length="short" rot="R90"/>
+<pin name="VBAT" x="-22.86" y="-152.4" length="short" rot="R90"/>
 <pin name="5V" x="-63.5" y="-139.7" length="short"/>
-<pin name="D+" x="0" y="-139.7" length="short" rot="R180"/>
-<pin name="D-" x="0" y="-144.78" length="short" rot="R180"/>
+<pin name="D+" x="-2.54" y="-139.7" length="short" rot="R180"/>
+<pin name="D-" x="-2.54" y="-144.78" length="short" rot="R180"/>
 <pin name="GND-3" x="-63.5" y="-114.3" length="short"/>
 </symbol>
 </symbols>
