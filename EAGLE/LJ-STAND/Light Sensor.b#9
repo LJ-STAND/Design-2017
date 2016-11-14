@@ -7888,6 +7888,8 @@
 <text x="131.318" y="145.542" size="0.762" layer="25" font="vector">James Wallington</text>
 <text x="131.318" y="144.526" size="0.762" layer="25" font="vector">Sam Tudor</text>
 <text x="131.318" y="143.51" size="0.762" layer="25" font="vector">Nakul Doshi</text>
+<text x="147.828" y="150.114" size="1.016" layer="25" font="vector">BRISBANE BOYS' COLLEGE</text>
+<text x="153.416" y="148.336" size="1.016" layer="25" font="vector">AUSTRALIA</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

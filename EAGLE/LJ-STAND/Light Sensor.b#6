@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="10" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.0001" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -7891,6 +7891,10 @@
 <text x="152.4" y="147.574" size="1.016" layer="25" font="vector">BRISBANE BOYS' COLLEGE</text>
 <text x="157.988" y="145.542" size="1.016" layer="25" font="vector">AUSTRALIA</text>
 <text x="137.16" y="150.368" size="1.016" layer="25" font="vector">Designed by James Yelland</text>
+<hole x="126.0576" y="143.3004" drill="3.2"/>
+<hole x="171.3266" y="143.3055" drill="3.2"/>
+<hole x="171.3234" y="67.3012" drill="3.2"/>
+<hole x="126.0609" y="67.2964" drill="3.2"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">

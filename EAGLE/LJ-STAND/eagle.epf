@@ -373,10 +373,10 @@ UsedLibrary="C:/Program Files/Eagle/app/eagle-7.2.0/lbr/SparkFun-Eagle-Libraries
 
 [Win_1]
 Type="Control Panel"
-Loc="1080 610 1679 1009"
-State=1
+Loc="633 0 1271 728"
+State=2
 Number=0
 
 [Desktop]
-Screen="2960 1294"
+Screen="1280 800"
 Window="Win_1"

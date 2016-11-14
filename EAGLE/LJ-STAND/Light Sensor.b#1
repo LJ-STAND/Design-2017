@@ -7895,7 +7895,7 @@
 <hole x="171.3234" y="67.3012" drill="3.2"/>
 <hole x="126.0609" y="67.2964" drill="3.2"/>
 <text x="165.597" y="67.3384" size="1.27" layer="21">1</text>
-<text x="129.794" y="139.446" size="1.016" layer="21" font="vector">Designed by James Yelland</text>
+<text x="129.794" y="139.8016" size="1.016" layer="21" font="vector">Designed by James Yelland</text>
 <rectangle x1="145.568671875" y1="142.20825" x2="149.759671875" y2="142.21586875" layer="21"/>
 <rectangle x1="145.561053125" y1="142.215871875" x2="149.767290625" y2="142.223490625" layer="21"/>
 <rectangle x1="145.561053125" y1="142.223490625" x2="149.767290625" y2="142.231109375" layer="21"/>
