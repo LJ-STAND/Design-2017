@@ -9019,7 +9019,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="PWR_IN" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
 <part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF Tantalum"/>
+<part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="MOTOR_SWITCH" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
 <part name="LOGIC_SWITCH" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
 <part name="MASTER" library="teensy-3.5" deviceset="TEENSY-3.5" device=""/>
