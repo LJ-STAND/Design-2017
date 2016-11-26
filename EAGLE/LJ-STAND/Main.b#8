@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -29,27 +29,27 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -820,12 +820,12 @@
 <hole x="172.6946" y="164.9095" drill="3.2"/>
 <hole x="159.0802" y="151.9428" drill="3.2"/>
 <hole x="138.2776" y="151.9174" drill="3.2"/>
-<text x="114.3" y="156.972" size="2.032" layer="21" font="vector">LJ STAND</text>
-<text x="112.649" y="155.194" size="1.016" layer="21" font="vector">Lachlan Grant</text>
-<text x="111.252" y="153.924" size="1.016" layer="21" font="vector">James Yelland</text>
-<text x="109.855" y="152.527" size="1.016" layer="21" font="vector">James Wallington</text>
-<text x="108.585" y="151.257" size="1.016" layer="21" font="vector">Sam Tudor</text>
-<text x="107.315" y="149.86" size="1.016" layer="21" font="vector">Nakul Doshi</text>
+<text x="114.2873" y="156.337" size="3.81" layer="21" font="vector">LJ STAND</text>
+<text x="110.1598" y="153.6827" size="1.397" layer="21" font="vector">Lachlan Grant</text>
+<text x="110.0709" y="151.9555" size="1.397" layer="21" font="vector">James Yelland</text>
+<text x="105.1687" y="147.9423" size="1.397" layer="21" font="vector">James Wallington</text>
+<text x="105.1306" y="145.9738" size="1.397" layer="21" font="vector">Sam Tudor</text>
+<text x="105.1687" y="144.0053" size="1.397" layer="21" font="vector">Nakul Doshi</text>
 <text x="128.143" y="138.303" size="2.032" layer="21" font="vector">BRISBANE BOYS' COLLEGE</text>
 <text x="141.351" y="135.509" size="1.778" layer="21" font="vector">AUSTRALIA</text>
 <rectangle x1="175.01235" y1="144.77365" x2="181.99735" y2="144.78635" layer="21"/>
@@ -5556,6 +5556,7 @@
 <rectangle x1="175.01235" y1="156.85135" x2="181.99735" y2="156.86405" layer="21"/>
 <text x="100.8507" y="92.8751" size="1.016" layer="21" font="vector">1</text>
 <text x="100.584" y="107.3785" size="1.016" layer="21" font="vector">1</text>
+<text x="144.3228" y="158.496" size="1.397" layer="21" font="vector">Designed by James Yelland</text>
 </plain>
 <libraries>
 <library name="tsop">

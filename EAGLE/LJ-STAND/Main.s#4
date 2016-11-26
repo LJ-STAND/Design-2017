@@ -9101,7 +9101,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR1_OUT_RIGHT" library="adafruit" deviceset="JST_2PIN" device="-SMT" value="PH"/>
+<part name="MTR1_OUT_RIGHT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
 <part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
@@ -9111,7 +9111,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR2_OUT_LEFT" library="adafruit" deviceset="JST_2PIN" device="-SMT" value="PH"/>
+<part name="MTR2_OUT_LEFT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
 <part name="C30" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C31" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
@@ -9120,7 +9120,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="C34" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR3_OUT_BACKRIGHT" library="adafruit" deviceset="JST_2PIN" device="-SMT" value="PH"/>
+<part name="MTR3_OUT_BACKRIGHT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
@@ -9228,7 +9228,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
 <part name="GND102" library="supply1" deviceset="GND" device=""/>
 <part name="C49" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR4_OUT_BACKLEFT" library="adafruit" deviceset="JST_2PIN" device="-SMT" value="PH"/>
+<part name="MTR4_OUT_BACKLEFT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
 <part name="C50" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C51" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND103" library="supply1" deviceset="GND" device=""/>

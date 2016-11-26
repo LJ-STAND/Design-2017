@@ -9925,7 +9925,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="C56" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="D1" library="diode" deviceset="SCHOTTKY-DIODE" device="P6T15"/>
 <part name="D2" library="adafruit" deviceset="DIODE" device="_SOD-123FL"/>
-<part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10K"/>
@@ -9933,6 +9932,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="SONAR" library="SparkFun-Connectors" deviceset="M04" device="PTH"/>
 <part name="GND106" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
+<part name="P+7" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10193,7 +10193,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="C56" gate="G$1" x="15.24" y="266.7" rot="R180"/>
 <instance part="D1" gate="G$1" x="-30.48" y="124.46"/>
 <instance part="D2" gate="G$1" x="55.88" y="114.3"/>
-<instance part="P+7" gate="1" x="261.62" y="259.08"/>
 <instance part="GND94" gate="1" x="264.16" y="233.68"/>
 <instance part="+3V8" gate="G$1" x="254" y="256.54"/>
 <instance part="R9" gate="G$1" x="259.08" y="241.3" rot="R90"/>
@@ -10204,6 +10203,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="SONAR" gate="G$1" x="147.32" y="160.02" rot="R180"/>
 <instance part="GND106" gate="1" x="139.7" y="149.86"/>
 <instance part="P+8" gate="1" x="139.7" y="167.64"/>
+<instance part="P+7" gate="1" x="261.62" y="259.08"/>
 </instances>
 <busses>
 </busses>
@@ -11038,6 +11038,12 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="142.24" y1="162.56" x2="139.7" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="162.56" x2="139.7" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="P+8" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<wire x1="266.7" y1="254" x2="261.62" y2="254" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="254" x2="261.62" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="LIGHT_GATE" gate="G$1" pin="1"/>
+<pinref part="P+7" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -12799,14 +12805,6 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <pinref part="D2" gate="G$1" pin="C"/>
 <wire x1="58.42" y1="114.3" x2="60.96" y2="114.3" width="0.1524" layer="91"/>
 <junction x="60.96" y="114.3"/>
-</segment>
-</net>
-<net name="N$37" class="0">
-<segment>
-<wire x1="266.7" y1="254" x2="261.62" y2="254" width="0.1524" layer="91"/>
-<wire x1="261.62" y1="254" x2="261.62" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="P+7" gate="1" pin="+5V"/>
-<pinref part="LIGHT_GATE" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="LIGHT_GATE" class="0">

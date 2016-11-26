@@ -9221,10 +9221,8 @@ design rules under a new name.</description>
 <contactref element="15" pad="OUT"/>
 <contactref element="SLAVE_TSOP" pad="20"/>
 <wire x1="101.649125" y1="66.041675" x2="101.649125" y2="61.288525" width="0.3048" layer="16"/>
-<wire x1="101.649125" y1="61.288525" x2="101.092" y2="60.7314" width="0.3048" layer="16"/>
-<via x="101.092" y="60.7314" extent="1-16" drill="0.3048"/>
-<wire x1="101.092" y1="60.7314" x2="101.092" y2="58.9026" width="0.3048" layer="1"/>
-<wire x1="101.092" y1="58.9026" x2="108.458" y2="51.5366" width="0.3048" layer="1"/>
+<via x="101.0793" y="60.4266" extent="1-16" drill="0.3048"/>
+<wire x1="101.0793" y1="58.9153" x2="108.458" y2="51.5366" width="0.3048" layer="1"/>
 <wire x1="108.458" y1="51.5366" x2="108.458" y2="50.419" width="0.3048" layer="1"/>
 <wire x1="108.458" y1="50.419" x2="107.95" y2="49.911" width="0.3048" layer="1"/>
 <wire x1="107.95" y1="49.911" x2="107.95" y2="45.974" width="0.3048" layer="1"/>
@@ -9257,6 +9255,9 @@ design rules under a new name.</description>
 <wire x1="201.3458" y1="86.6902" x2="201.0156" y2="87.0204" width="0.3048" layer="1"/>
 <wire x1="202.9206" y1="86.487" x2="204.3176" y2="86.487" width="0.3048" layer="16"/>
 <wire x1="204.3176" y1="86.487" x2="208.1276" y2="82.677" width="0.3048" layer="16"/>
+<wire x1="101.0793" y1="58.9153" x2="101.0793" y2="60.4266" width="0.3048" layer="1"/>
+<wire x1="101.649125" y1="61.288525" x2="101.0793" y2="60.7187" width="0.3048" layer="16"/>
+<wire x1="101.0793" y1="60.7187" x2="101.0793" y2="60.4266" width="0.3048" layer="16"/>
 </signal>
 <signal name="TSOP16">
 <contactref element="16" pad="OUT"/>
