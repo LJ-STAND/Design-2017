@@ -8397,7 +8397,7 @@ design rules under a new name.</description>
 </element>
 <element name="SONAR" library="SparkFun-Connectors" package="1X04" value="" x="204.9272" y="113.0554" smashed="yes" rot="R270">
 <attribute name="PROD_ID" value="CONN-09696" x="204.9272" y="113.0554" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="205.5876" y="114.8842" size="1.27" layer="25" ratio="10" rot="R90"/>
+<attribute name="NAME" x="205.5876" y="114.8842" size="1.27" layer="25" font="vector" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="201.7522" y="114.3254" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
