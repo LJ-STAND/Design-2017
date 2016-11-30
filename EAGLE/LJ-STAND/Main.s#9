@@ -9522,7 +9522,10 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="GND94" gate="1" x="264.16" y="233.68"/>
 <instance part="+3V8" gate="G$1" x="254" y="256.54"/>
 <instance part="R9" gate="G$1" x="259.08" y="241.3" rot="R90"/>
-<instance part="LIGHT_GATE" gate="G$1" x="274.32" y="248.92" rot="R180"/>
+<instance part="LIGHT_GATE" gate="G$1" x="274.32" y="248.92" smashed="yes" rot="R180">
+<attribute name="VALUE" x="276.86" y="259.08" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="277.622" y="256.54" size="1.778" layer="95" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
