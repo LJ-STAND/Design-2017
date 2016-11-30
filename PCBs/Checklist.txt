@@ -1,0 +1,8 @@
+To check:
+* Bluetooth header
+* Sonar header
+* Motor Controllers
+* Pixy Headers
+* IMU Header
+* Light Sensor Header
+* Teensy Pins
