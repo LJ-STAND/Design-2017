@@ -1358,9 +1358,9 @@ Source: http://cache.national.com/ds/LM/LM340.pdf</description>
 </device>
 <device name="S" package="TO263-3">
 <connects>
-<connect gate="A" pin="GND" pad="TAB"/>
-<connect gate="A" pin="VI" pad="1"/>
-<connect gate="A" pin="VO" pad="3"/>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="VI" pad="3"/>
+<connect gate="A" pin="VO" pad="2 TAB"/>
 </connects>
 <technologies>
 <technology name="05"/>

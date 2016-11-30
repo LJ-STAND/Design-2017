@@ -9683,14 +9683,14 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="VREG-5V" library="V78-2000-switching-regulator" deviceset="V78-2000" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
+<part name="C11" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22uF"/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="VREG-3.3V" library="linear" deviceset="LM340?-*" device="S" technology="05" value="LM1084"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="PWR_IN" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
-<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
+<part name="C13" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="C14" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10uF"/>
 <part name="MOTOR_SWITCH" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
 <part name="LOGIC_SWITCH" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>

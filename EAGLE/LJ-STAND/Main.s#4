@@ -9773,7 +9773,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR1_OUT_RIGHT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
+<part name="RIGHT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
 <part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
@@ -9783,7 +9783,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
 <part name="C29" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR2_OUT_LEFT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
+<part name="LEFT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
 <part name="C30" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C31" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
@@ -9792,7 +9792,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="C34" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR3_OUT_BACKRIGHT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
+<part name="BACKRIGHT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
 <part name="C35" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND57" library="supply1" deviceset="GND" device=""/>
@@ -9900,7 +9900,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
 <part name="GND102" library="supply1" deviceset="GND" device=""/>
 <part name="C49" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="MTR4_OUT_BACKLEFT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
+<part name="BACKLEFT" library="adafruit" deviceset="JST_2PIN" device="-THM" value="PH"/>
 <part name="C50" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C51" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND103" library="supply1" deviceset="GND" device=""/>
@@ -10041,7 +10041,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="GND45" gate="1" x="142.24" y="330.2"/>
 <instance part="GND46" gate="1" x="177.8" y="309.88"/>
 <instance part="C24" gate="G$1" x="165.1" y="302.26" rot="R90"/>
-<instance part="MTR1_OUT_RIGHT" gate="G$1" x="162.56" y="289.56" rot="R270"/>
+<instance part="RIGHT" gate="G$1" x="162.56" y="289.56" rot="R270"/>
 <instance part="C25" gate="G$1" x="142.24" y="342.9" rot="R180"/>
 <instance part="C26" gate="G$1" x="142.24" y="355.6" rot="R180"/>
 <instance part="GND47" gate="1" x="147.32" y="358.14"/>
@@ -10051,7 +10051,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="GND50" gate="1" x="55.88" y="330.2"/>
 <instance part="GND51" gate="1" x="91.44" y="309.88"/>
 <instance part="C29" gate="G$1" x="78.74" y="302.26" rot="R90"/>
-<instance part="MTR2_OUT_LEFT" gate="G$1" x="76.2" y="289.56" rot="R270"/>
+<instance part="LEFT" gate="G$1" x="76.2" y="289.56" rot="R270"/>
 <instance part="C30" gate="G$1" x="55.88" y="342.9" rot="R180"/>
 <instance part="C31" gate="G$1" x="55.88" y="355.6" rot="R180"/>
 <instance part="GND52" gate="1" x="60.96" y="358.14"/>
@@ -10060,7 +10060,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="GND55" gate="1" x="-27.94" y="332.74"/>
 <instance part="GND56" gate="1" x="7.62" y="312.42"/>
 <instance part="C34" gate="G$1" x="-5.08" y="304.8" rot="R90"/>
-<instance part="MTR3_OUT_BACKRIGHT" gate="G$1" x="-7.62" y="292.1" rot="R270"/>
+<instance part="BACKRIGHT" gate="G$1" x="-7.62" y="292.1" rot="R270"/>
 <instance part="C35" gate="G$1" x="-27.94" y="345.44" rot="R180"/>
 <instance part="C36" gate="G$1" x="-27.94" y="358.14" rot="R180"/>
 <instance part="GND57" gate="1" x="-22.86" y="360.68"/>
@@ -10168,7 +10168,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="GND101" gate="1" x="-30.48" y="238.76"/>
 <instance part="GND102" gate="1" x="5.08" y="218.44"/>
 <instance part="C49" gate="G$1" x="-7.62" y="210.82" rot="R90"/>
-<instance part="MTR4_OUT_BACKLEFT" gate="G$1" x="-10.16" y="198.12" rot="R270"/>
+<instance part="BACKLEFT" gate="G$1" x="-10.16" y="198.12" rot="R270"/>
 <instance part="C50" gate="G$1" x="-30.48" y="251.46" rot="R180"/>
 <instance part="C51" gate="G$1" x="-30.48" y="264.16" rot="R180"/>
 <instance part="GND103" gate="1" x="-25.4" y="266.7"/>
@@ -11624,7 +11624,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="147.32" y1="314.96" x2="147.32" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="302.26" x2="157.48" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="1"/>
-<pinref part="MTR1_OUT_RIGHT" gate="G$1" pin="2"/>
+<pinref part="RIGHT" gate="G$1" pin="2"/>
 <wire x1="157.48" y1="302.26" x2="160.02" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="292.1" x2="162.56" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="297.18" x2="157.48" y2="297.18" width="0.1524" layer="91"/>
@@ -11639,7 +11639,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="182.88" y1="320.04" x2="182.88" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="302.26" x2="170.18" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="C24" gate="G$1" pin="2"/>
-<pinref part="MTR1_OUT_RIGHT" gate="G$1" pin="1"/>
+<pinref part="RIGHT" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="302.26" x2="167.64" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="292.1" x2="165.1" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="297.18" x2="170.18" y2="297.18" width="0.1524" layer="91"/>
@@ -11708,7 +11708,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="60.96" y1="314.96" x2="60.96" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="302.26" x2="71.12" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
-<pinref part="MTR2_OUT_LEFT" gate="G$1" pin="2"/>
+<pinref part="LEFT" gate="G$1" pin="2"/>
 <wire x1="71.12" y1="302.26" x2="73.66" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="292.1" x2="76.2" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="297.18" x2="71.12" y2="297.18" width="0.1524" layer="91"/>
@@ -11723,7 +11723,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="96.52" y1="320.04" x2="96.52" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="302.26" x2="83.82" y2="302.26" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="2"/>
-<pinref part="MTR2_OUT_LEFT" gate="G$1" pin="1"/>
+<pinref part="LEFT" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="302.26" x2="81.28" y2="302.26" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="292.1" x2="78.74" y2="297.18" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="297.18" x2="83.82" y2="297.18" width="0.1524" layer="91"/>
@@ -11761,7 +11761,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="-22.86" y1="317.5" x2="-22.86" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-22.86" y1="304.8" x2="-12.7" y2="304.8" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="1"/>
-<pinref part="MTR3_OUT_BACKRIGHT" gate="G$1" pin="2"/>
+<pinref part="BACKRIGHT" gate="G$1" pin="2"/>
 <wire x1="-12.7" y1="304.8" x2="-10.16" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="294.64" x2="-7.62" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="299.72" x2="-12.7" y2="299.72" width="0.1524" layer="91"/>
@@ -11776,7 +11776,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="12.7" y1="322.58" x2="12.7" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="304.8" x2="0" y2="304.8" width="0.1524" layer="91"/>
 <pinref part="C34" gate="G$1" pin="2"/>
-<pinref part="MTR3_OUT_BACKRIGHT" gate="G$1" pin="1"/>
+<pinref part="BACKRIGHT" gate="G$1" pin="1"/>
 <wire x1="0" y1="304.8" x2="-2.54" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="294.64" x2="-5.08" y2="299.72" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="299.72" x2="0" y2="299.72" width="0.1524" layer="91"/>
@@ -12615,7 +12615,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="-25.4" y1="223.52" x2="-25.4" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="210.82" x2="-15.24" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="C49" gate="G$1" pin="1"/>
-<pinref part="MTR4_OUT_BACKLEFT" gate="G$1" pin="2"/>
+<pinref part="BACKLEFT" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="210.82" x2="-12.7" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="200.66" x2="-10.16" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="205.74" x2="-15.24" y2="205.74" width="0.1524" layer="91"/>
@@ -12630,7 +12630,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="10.16" y1="228.6" x2="10.16" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="10.16" y1="210.82" x2="-2.54" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="C49" gate="G$1" pin="2"/>
-<pinref part="MTR4_OUT_BACKLEFT" gate="G$1" pin="1"/>
+<pinref part="BACKLEFT" gate="G$1" pin="1"/>
 <wire x1="-2.54" y1="210.82" x2="-5.08" y2="210.82" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="200.66" x2="-7.62" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="205.74" x2="-2.54" y2="205.74" width="0.1524" layer="91"/>
