@@ -1,0 +1,10 @@
+Partlist exported from C:/Users/James Yelland/git/LJ-STAND/Design/EAGLE/LJ-STAND/Light Sensor.sch at 30/11/2016 6:50:37 PM
+
+Qty Value Device          Package      Parts                                                                                                                                                        Description    
+24        LEDCHIP-LED0805 CHIP-LED0805 LED0, LED1, LED2, LED3, LED4, LED5, LED6, LED7, LED8, LED9, LED10, LED11, LED12, LED13, LED14, LED15, LED16, LED17, LED18, LED19, LED20, LED21, LED22, LED23 LED            
+1         PINHD-2X13SMT   2X13_SMT     LIGHT_SENSOR_CONNECTOR                                                                                                                                       PIN HEADER     
+1         R-TRIMM3296W    RTRIM3296W   R1                                                                                                                                                           Trimm resistor 
+24  100   RESISTOR0603    0603-RES     R2, R4, R6, R8, R10, R12, R14, R16, R18, R20, R22, R24, R26, R28, R30, R32, R34, R36, R38, R40, R42, R44, R46, R48                                           Resistor       
+24  19.6K RESISTOR0603    0603-RES     R3, R5, R7, R9, R11, R13, R15, R17, R19, R21, R23, R25, R27, R29, R31, R33, R35, R37, R39, R41, R43, R45, R47, R49                                           Resistor       
+24  47uF  CAP1206         1206         C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24                                                Capacitor      
+24  ALS   ALS             SMD          LS0, LS1, LS2, LS3, LS4, LS5, LS6, LS7, LS8, LS9, LS10, LS11, LS12, LS13, LS14, LS15, LS16, LS17, LS18, LS19, LS20, LS21, LS22, LS23                                        
