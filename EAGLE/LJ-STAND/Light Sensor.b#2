@@ -9,43 +9,43 @@
 <grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -61,56 +61,56 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="fp3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="Beschreib" color="9" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="BGA-Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="BD-Top" color="5" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="fp3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="ReferenceLS" color="7" fill="1" visible="no" active="no"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
 <layer number="202" name="202bmp" color="3" fill="1" visible="no" active="no"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -119,21 +119,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="231" name="Eagle3D_PG1" color="7" fill="1" visible="no" active="no"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -7234,7 +7234,7 @@
 <hole x="171.3266" y="143.3055" drill="3.2"/>
 <hole x="171.3234" y="67.3012" drill="3.2"/>
 <hole x="126.0609" y="67.2964" drill="3.2"/>
-<text x="165.597" y="67.3384" size="1.27" layer="21">1</text>
+<text x="165.8002" y="67.3384" size="1.27" layer="21" font="vector">1</text>
 <text x="132.8928" y="139.7762" size="1.397" layer="21" font="vector">Designed by James Yelland</text>
 <rectangle x1="146.508471875" y1="143.22425" x2="150.699471875" y2="143.23186875" layer="21"/>
 <rectangle x1="146.500853125" y1="143.231871875" x2="150.707090625" y2="143.239490625" layer="21"/>
@@ -13343,132 +13343,348 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="SparkFun-Capacitors" package="1206" value="47uF" x="148.6916" y="157.0228"/>
-<element name="C10" library="SparkFun-Capacitors" package="1206" value="47uF" x="185.293" y="68.5546" rot="R225"/>
-<element name="C11" library="SparkFun-Capacitors" package="1206" value="47uF" x="174.7012" y="60.4266" rot="R210"/>
-<element name="C12" library="SparkFun-Capacitors" package="1206" value="47uF" x="161.925" y="55.2704" rot="R195"/>
-<element name="C13" library="SparkFun-Capacitors" package="1206" value="47uF" x="148.844" y="53.5178" rot="R180"/>
-<element name="C14" library="SparkFun-Capacitors" package="1206" value="47uF" x="135.2042" y="55.3466" rot="R165"/>
-<element name="C15" library="SparkFun-Capacitors" package="1206" value="47uF" x="122.809" y="60.6298" rot="R150"/>
-<element name="C16" library="SparkFun-Capacitors" package="1206" value="47uF" x="112.0902" y="68.7832" rot="R135"/>
-<element name="C17" library="SparkFun-Capacitors" package="1206" value="47uF" x="103.759" y="79.5528" rot="R120"/>
-<element name="C18" library="SparkFun-Capacitors" package="1206" value="47uF" x="98.7044" y="91.8718" rot="R105"/>
-<element name="C19" library="SparkFun-Capacitors" package="1206" value="47uF" x="96.901" y="105.283" rot="R90"/>
-<element name="C2" library="SparkFun-Capacitors" package="1206" value="47uF" x="162.0012" y="155.2448" rot="R345"/>
-<element name="C20" library="SparkFun-Capacitors" package="1206" value="47uF" x="98.679" y="118.5418" rot="R75"/>
-<element name="C21" library="SparkFun-Capacitors" package="1206" value="47uF" x="103.8606" y="131.2672" rot="R60"/>
-<element name="C22" library="SparkFun-Capacitors" package="1206" value="47uF" x="112.2172" y="141.9098" rot="R45"/>
-<element name="C23" library="SparkFun-Capacitors" package="1206" value="47uF" x="122.6566" y="149.9362" rot="R30"/>
-<element name="C24" library="SparkFun-Capacitors" package="1206" value="47uF" x="135.2042" y="155.2702" rot="R15"/>
-<element name="C3" library="SparkFun-Capacitors" package="1206" value="47uF" x="174.7012" y="150.0886" rot="R330"/>
-<element name="C4" library="SparkFun-Capacitors" package="1206" value="47uF" x="185.2422" y="142.1638" rot="R315"/>
-<element name="C5" library="SparkFun-Capacitors" package="1206" value="47uF" x="193.5988" y="130.9878" rot="R300"/>
-<element name="C6" library="SparkFun-Capacitors" package="1206" value="47uF" x="198.6788" y="118.872" rot="R285"/>
-<element name="C7" library="SparkFun-Capacitors" package="1206" value="47uF" x="200.4568" y="105.283" rot="R270"/>
-<element name="C8" library="SparkFun-Capacitors" package="1206" value="47uF" x="198.6026" y="91.7448" rot="R255"/>
-<element name="C9" library="SparkFun-Capacitors" package="1206" value="47uF" x="193.6242" y="79.6798" rot="R240"/>
-<element name="LED0" library="adafruit" package="CHIP-LED0805" value="" x="151.638" y="159.0802" rot="MR0"/>
-<element name="LED1" library="adafruit" package="CHIP-LED0805" value="" x="165.481" y="156.4132" rot="MR15"/>
-<element name="LED10" library="adafruit" package="CHIP-LED0805" value="" x="172.9994" y="57.1246" rot="MR150"/>
-<element name="LED11" library="adafruit" package="CHIP-LED0805" value="" x="159.7406" y="52.578" rot="MR165"/>
-<element name="LED12" library="adafruit" package="CHIP-LED0805" value="" x="145.6944" y="51.3842" rot="MR180"/>
-<element name="LED13" library="adafruit" package="CHIP-LED0805" value="" x="131.8768" y="54.0004" rot="MR195"/>
-<element name="LED14" library="adafruit" package="CHIP-LED0805" value="" x="119.2276" y="60.0964" rot="MR210"/>
-<element name="LED15" library="adafruit" package="CHIP-LED0805" value="" x="108.5596" y="69.3928" rot="MR225"/>
-<element name="LED16" library="adafruit" package="CHIP-LED0805" value="" x="100.6094" y="81.026" rot="MR240"/>
-<element name="LED17" library="adafruit" package="CHIP-LED0805" value="" x="96.012" y="94.2594" rot="MR255"/>
-<element name="LED18" library="adafruit" package="CHIP-LED0805" value="" x="94.7928" y="108.2548" rot="MR270"/>
-<element name="LED19" library="adafruit" package="CHIP-LED0805" value="" x="97.5614" y="122.1232" rot="MR285"/>
-<element name="LED2" library="adafruit" package="CHIP-LED0805" value="" x="178.1048" y="150.2918" rot="MR30"/>
-<element name="LED20" library="adafruit" package="CHIP-LED0805" value="" x="103.6066" y="134.7978" rot="MR300"/>
-<element name="LED21" library="adafruit" package="CHIP-LED0805" value="" x="112.6744" y="145.415" rot="MR315"/>
-<element name="LED22" library="adafruit" package="CHIP-LED0805" value="" x="124.3584" y="153.4922" rot="MR330"/>
-<element name="LED23" library="adafruit" package="CHIP-LED0805" value="" x="137.6172" y="158.115" rot="MR345"/>
-<element name="LED3" library="adafruit" package="CHIP-LED0805" value="" x="188.7728" y="141.224" rot="MR45"/>
-<element name="LED4" library="adafruit" package="CHIP-LED0805" value="" x="196.7738" y="129.5654" rot="MR60"/>
-<element name="LED5" library="adafruit" package="CHIP-LED0805" value="" x="201.3712" y="116.2812" rot="MR75"/>
-<element name="LED6" library="adafruit" package="CHIP-LED0805" value="" x="202.3872" y="102.235" rot="MR90"/>
-<element name="LED7" library="adafruit" package="CHIP-LED0805" value="" x="199.8218" y="88.4682" rot="MR105"/>
-<element name="LED8" library="adafruit" package="CHIP-LED0805" value="" x="193.7004" y="75.819" rot="MR120"/>
-<element name="LED9" library="adafruit" package="CHIP-LED0805" value="" x="184.5818" y="65.1002" rot="MR135"/>
+<element name="C1" library="SparkFun-Capacitors" package="1206" value="47uF" x="148.6916" y="157.0228" smashed="yes">
+<attribute name="VALUE" x="142.2146" y="156.5148" size="1.016" layer="27" font="vector"/>
+</element>
+<element name="C10" library="SparkFun-Capacitors" package="1206" value="47uF" x="185.293" y="68.5546" smashed="yes" rot="R225">
+<attribute name="VALUE" x="184.644396875" y="71.81385625" size="1.016" layer="27" font="vector" rot="R225"/>
+</element>
+<element name="C11" library="SparkFun-Capacitors" package="1206" value="47uF" x="174.7012" y="60.4266" smashed="yes" rot="R210">
+<attribute name="VALUE" x="175.174434375" y="63.968921875" size="1.016" layer="27" font="vector" rot="R210"/>
+</element>
+<element name="C12" library="SparkFun-Capacitors" package="1206" value="47uF" x="161.925" y="55.2704" smashed="yes" rot="R195">
+<attribute name="VALUE" x="167.93455625" y="57.434240625" size="1.016" layer="27" font="vector" rot="R195"/>
+</element>
+<element name="C13" library="SparkFun-Capacitors" package="1206" value="47uF" x="148.844" y="53.5178" smashed="yes" rot="R180">
+<attribute name="VALUE" x="155.4226" y="53.975" size="1.016" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="C14" library="SparkFun-Capacitors" package="1206" value="47uF" x="135.2042" y="55.3466" smashed="yes" rot="R165">
+<attribute name="VALUE" x="141.5962375" y="54.1203" size="1.016" layer="27" font="vector" rot="R165"/>
+</element>
+<element name="C15" library="SparkFun-Capacitors" package="1206" value="47uF" x="122.809" y="60.6298" smashed="yes" rot="R150">
+<attribute name="VALUE" x="125.746034375" y="61.962321875" size="1.016" layer="27" font="vector" rot="R150"/>
+</element>
+<element name="C16" library="SparkFun-Capacitors" package="1206" value="47uF" x="112.0902" y="68.7832" smashed="yes" rot="R135">
+<attribute name="VALUE" x="117.02585625" y="64.7582" size="1.016" layer="27" font="vector" rot="R135"/>
+</element>
+<element name="C17" library="SparkFun-Capacitors" package="1206" value="47uF" x="103.759" y="79.5528" smashed="yes" rot="R120">
+<attribute name="VALUE" x="107.402921875" y="74.0249625" size="1.016" layer="27" font="vector" rot="R120"/>
+</element>
+<element name="C18" library="SparkFun-Capacitors" package="1206" value="47uF" x="98.7044" y="91.8718" smashed="yes" rot="R105">
+<attribute name="VALUE" x="100.792040625" y="85.659040625" size="1.016" layer="27" font="vector" rot="R105"/>
+</element>
+<element name="C19" library="SparkFun-Capacitors" package="1206" value="47uF" x="96.901" y="105.283" smashed="yes" rot="R90">
+<attribute name="VALUE" x="97.4344" y="99.1616" size="1.016" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="C2" library="SparkFun-Capacitors" package="1206" value="47uF" x="162.0012" y="155.2448" smashed="yes" rot="R345">
+<attribute name="VALUE" x="155.964759375" y="156.420296875" size="1.016" layer="27" font="vector" rot="R345"/>
+</element>
+<element name="C20" library="SparkFun-Capacitors" package="1206" value="47uF" x="98.679" y="118.5418" smashed="yes" rot="R75">
+<attribute name="VALUE" x="97.8591" y="112.530759375" size="1.016" layer="27" font="vector" rot="R75"/>
+</element>
+<element name="C21" library="SparkFun-Capacitors" package="1206" value="47uF" x="103.8606" y="131.2672" smashed="yes" rot="R60">
+<attribute name="VALUE" x="101.154521875" y="125.4853625" size="1.016" layer="27" font="vector" rot="R60"/>
+</element>
+<element name="C22" library="SparkFun-Capacitors" package="1206" value="47uF" x="112.2172" y="141.9098" smashed="yes" rot="R45">
+<attribute name="VALUE" x="112.7896" y="138.574340625" size="1.016" layer="27" font="vector" rot="R45"/>
+</element>
+<element name="C23" library="SparkFun-Capacitors" package="1206" value="47uF" x="122.6566" y="149.9362" smashed="yes" rot="R30">
+<attribute name="VALUE" x="117.7129625" y="146.317675" size="1.016" layer="27" font="vector" rot="R30"/>
+</element>
+<element name="C24" library="SparkFun-Capacitors" package="1206" value="47uF" x="135.2042" y="155.2702" smashed="yes" rot="R15">
+<attribute name="VALUE" x="129.270840625" y="152.97935625" size="1.016" layer="27" font="vector" rot="R15"/>
+</element>
+<element name="C3" library="SparkFun-Capacitors" package="1206" value="47uF" x="174.7012" y="150.0886" smashed="yes" rot="R330">
+<attribute name="VALUE" x="168.7415625" y="152.845475" size="1.016" layer="27" font="vector" rot="R330"/>
+</element>
+<element name="C4" library="SparkFun-Capacitors" package="1206" value="47uF" x="185.2422" y="142.1638" smashed="yes" rot="R315">
+<attribute name="VALUE" x="180.306540625" y="146.341196875" size="1.016" layer="27" font="vector" rot="R315"/>
+</element>
+<element name="C5" library="SparkFun-Capacitors" package="1206" value="47uF" x="193.5988" y="130.9878" smashed="yes" rot="R300">
+<attribute name="VALUE" x="189.929475" y="136.312434375" size="1.016" layer="27" font="vector" rot="R300"/>
+</element>
+<element name="C6" library="SparkFun-Capacitors" package="1206" value="47uF" x="198.6788" y="118.872" smashed="yes" rot="R285">
+<attribute name="VALUE" x="196.31175625" y="124.60215625" size="1.016" layer="27" font="vector" rot="R285"/>
+</element>
+<element name="C7" library="SparkFun-Capacitors" package="1206" value="47uF" x="200.4568" y="105.283" smashed="yes" rot="R270">
+<attribute name="VALUE" x="200.787" y="108.2294" size="1.016" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="C8" library="SparkFun-Capacitors" package="1206" value="47uF" x="198.6026" y="91.7448" smashed="yes" rot="R255">
+<attribute name="VALUE" x="199.727296875" y="98.1622375" size="1.016" layer="27" font="vector" rot="R255"/>
+</element>
+<element name="C9" library="SparkFun-Capacitors" package="1206" value="47uF" x="193.6242" y="79.6798" smashed="yes" rot="R240">
+<attribute name="VALUE" x="196.330275" y="85.664834375" size="1.016" layer="27" font="vector" rot="R240"/>
+</element>
+<element name="LED0" library="adafruit" package="CHIP-LED0805" value="" x="151.638" y="159.0802" smashed="yes" rot="MR0">
+<attribute name="NAME" x="152.908" y="157.8102" size="1.27" layer="26" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="149.098" y="157.8102" size="1.27" layer="28" rot="MR90"/>
+</element>
+<element name="LED1" library="adafruit" package="CHIP-LED0805" value="" x="165.481" y="156.4132" smashed="yes" rot="MR15">
+<attribute name="NAME" x="166.379028125" y="154.857771875" size="1.27" layer="26" font="vector" rot="MR105"/>
+<attribute name="VALUE" x="162.69885" y="155.843871875" size="1.27" layer="28" rot="MR105"/>
+</element>
+<element name="LED10" library="adafruit" package="CHIP-LED0805" value="" x="172.9994" y="57.1246" smashed="yes" rot="MR150">
+<attribute name="NAME" x="171.26455" y="57.58945" size="1.27" layer="26" font="vector" rot="MR240"/>
+<attribute name="VALUE" x="174.56410625" y="59.49445" size="1.27" layer="28" rot="MR240"/>
+</element>
+<element name="LED11" library="adafruit" package="CHIP-LED0805" value="" x="159.7406" y="52.578" smashed="yes" rot="MR165">
+<attribute name="NAME" x="158.185175" y="53.476025" size="1.27" layer="26" font="vector" rot="MR255"/>
+<attribute name="VALUE" x="161.865353125" y="54.462125" size="1.27" layer="28" rot="MR255"/>
+</element>
+<element name="LED12" library="adafruit" package="CHIP-LED0805" value="" x="145.6944" y="51.3842" smashed="yes" rot="MR180">
+<attribute name="NAME" x="144.4244" y="52.6542" size="1.27" layer="26" font="vector" rot="MR270"/>
+<attribute name="VALUE" x="148.2344" y="52.6542" size="1.27" layer="28" rot="MR270"/>
+</element>
+<element name="LED13" library="adafruit" package="CHIP-LED0805" value="" x="131.8768" y="54.0004" smashed="yes" rot="MR195">
+<attribute name="NAME" x="130.978775" y="55.555825" size="1.27" layer="26" font="vector" rot="MR285"/>
+<attribute name="VALUE" x="134.658953125" y="54.569725" size="1.27" layer="28" rot="MR285"/>
+</element>
+<element name="LED14" library="adafruit" package="CHIP-LED0805" value="" x="119.2276" y="60.0964" smashed="yes" rot="MR210">
+<attribute name="NAME" x="118.76275" y="61.83125" size="1.27" layer="26" font="vector" rot="MR300"/>
+<attribute name="VALUE" x="122.06230625" y="59.92625" size="1.27" layer="28" rot="MR300"/>
+</element>
+<element name="LED15" library="adafruit" package="CHIP-LED0805" value="" x="108.5596" y="69.3928" smashed="yes" rot="MR225">
+<attribute name="NAME" x="108.5596" y="71.18885" size="1.27" layer="26" font="vector" rot="MR315"/>
+<attribute name="VALUE" x="111.253678125" y="68.494771875" size="1.27" layer="28" rot="MR315"/>
+</element>
+<element name="LED16" library="adafruit" package="CHIP-LED0805" value="" x="100.6094" y="81.026" smashed="yes" rot="MR240">
+<attribute name="NAME" x="101.074253125" y="82.76085" size="1.27" layer="26" font="vector" rot="MR330"/>
+<attribute name="VALUE" x="102.979253125" y="79.46129375" size="1.27" layer="28" rot="MR330"/>
+</element>
+<element name="LED17" library="adafruit" package="CHIP-LED0805" value="" x="96.012" y="94.2594" smashed="yes" rot="MR255">
+<attribute name="NAME" x="96.910028125" y="95.814825" size="1.27" layer="26" font="vector" rot="MR345"/>
+<attribute name="VALUE" x="97.896128125" y="92.134646875" size="1.27" layer="28" rot="MR345"/>
+</element>
+<element name="LED18" library="adafruit" package="CHIP-LED0805" value="" x="94.7928" y="108.2548" smashed="yes" rot="MR270">
+<attribute name="NAME" x="96.0628" y="109.5248" size="1.27" layer="26" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="96.0628" y="105.7148" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="LED19" library="adafruit" package="CHIP-LED0805" value="" x="97.5614" y="122.1232" smashed="yes" rot="MR285">
+<attribute name="NAME" x="99.116828125" y="123.021225" size="1.27" layer="26" font="vector" rot="MR15"/>
+<attribute name="VALUE" x="98.130728125" y="119.341046875" size="1.27" layer="28" rot="MR15"/>
+</element>
+<element name="LED2" library="adafruit" package="CHIP-LED0805" value="" x="178.1048" y="150.2918" smashed="yes" rot="MR30">
+<attribute name="NAME" x="178.569653125" y="148.556946875" size="1.27" layer="26" font="vector" rot="MR120"/>
+<attribute name="VALUE" x="175.270096875" y="150.461946875" size="1.27" layer="28" rot="MR120"/>
+</element>
+<element name="LED20" library="adafruit" package="CHIP-LED0805" value="" x="103.6066" y="134.7978" smashed="yes" rot="MR300">
+<attribute name="NAME" x="105.341453125" y="135.26265" size="1.27" layer="26" font="vector" rot="MR30"/>
+<attribute name="VALUE" x="103.436453125" y="131.96309375" size="1.27" layer="28" rot="MR30"/>
+</element>
+<element name="LED21" library="adafruit" package="CHIP-LED0805" value="" x="112.6744" y="145.415" smashed="yes" rot="MR315">
+<attribute name="NAME" x="114.470453125" y="145.415" size="1.27" layer="26" font="vector" rot="MR45"/>
+<attribute name="VALUE" x="111.776375" y="142.720921875" size="1.27" layer="28" rot="MR45"/>
+</element>
+<element name="LED22" library="adafruit" package="CHIP-LED0805" value="" x="124.3584" y="153.4922" smashed="yes" rot="MR330">
+<attribute name="NAME" x="126.093253125" y="153.027346875" size="1.27" layer="26" font="vector" rot="MR60"/>
+<attribute name="VALUE" x="122.793696875" y="151.122346875" size="1.27" layer="28" rot="MR60"/>
+</element>
+<element name="LED23" library="adafruit" package="CHIP-LED0805" value="" x="137.6172" y="158.115" smashed="yes" rot="MR345">
+<attribute name="NAME" x="139.172628125" y="157.216971875" size="1.27" layer="26" font="vector" rot="MR75"/>
+<attribute name="VALUE" x="135.49245" y="156.230871875" size="1.27" layer="28" rot="MR75"/>
+</element>
+<element name="LED3" library="adafruit" package="CHIP-LED0805" value="" x="188.7728" y="141.224" smashed="yes" rot="MR45">
+<attribute name="NAME" x="188.7728" y="139.427946875" size="1.27" layer="26" font="vector" rot="MR135"/>
+<attribute name="VALUE" x="186.078725" y="142.122025" size="1.27" layer="28" rot="MR135"/>
+</element>
+<element name="LED4" library="adafruit" package="CHIP-LED0805" value="" x="196.7738" y="129.5654" smashed="yes" rot="MR60">
+<attribute name="NAME" x="196.30895" y="127.830546875" size="1.27" layer="26" font="vector" rot="MR150"/>
+<attribute name="VALUE" x="194.40395" y="131.130103125" size="1.27" layer="28" rot="MR150"/>
+</element>
+<element name="LED5" library="adafruit" package="CHIP-LED0805" value="" x="201.3712" y="116.2812" smashed="yes" rot="MR75">
+<attribute name="NAME" x="200.473175" y="114.725771875" size="1.27" layer="26" font="vector" rot="MR165"/>
+<attribute name="VALUE" x="199.487075" y="118.40595" size="1.27" layer="28" rot="MR165"/>
+</element>
+<element name="LED6" library="adafruit" package="CHIP-LED0805" value="" x="202.3872" y="102.235" smashed="yes" rot="MR90">
+<attribute name="NAME" x="201.1172" y="100.965" size="1.27" layer="26" font="vector" rot="MR180"/>
+<attribute name="VALUE" x="201.1172" y="104.775" size="1.27" layer="28" rot="MR180"/>
+</element>
+<element name="LED7" library="adafruit" package="CHIP-LED0805" value="" x="199.8218" y="88.4682" smashed="yes" rot="MR105">
+<attribute name="NAME" x="198.266375" y="87.570171875" size="1.27" layer="26" font="vector" rot="MR195"/>
+<attribute name="VALUE" x="199.252475" y="91.25035" size="1.27" layer="28" rot="MR195"/>
+</element>
+<element name="LED8" library="adafruit" package="CHIP-LED0805" value="" x="193.7004" y="75.819" smashed="yes" rot="MR120">
+<attribute name="NAME" x="191.96555" y="75.354146875" size="1.27" layer="26" font="vector" rot="MR210"/>
+<attribute name="VALUE" x="193.87055" y="78.653703125" size="1.27" layer="28" rot="MR210"/>
+</element>
+<element name="LED9" library="adafruit" package="CHIP-LED0805" value="" x="184.5818" y="65.1002" smashed="yes" rot="MR135">
+<attribute name="NAME" x="182.78575" y="65.1002" size="1.27" layer="26" font="vector" rot="MR225"/>
+<attribute name="VALUE" x="185.479828125" y="67.794275" size="1.27" layer="28" rot="MR225"/>
+</element>
 <element name="LIGHT_SENSOR_CONNECTOR" library="pinhead+" package="2X13_SMT" value="" x="148.7932" y="64.897" smashed="yes" rot="R180">
 <attribute name="VALUE" x="165.3032" y="71.882" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="LS0" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="145.7198" y="158.9278" rot="MR90"/>
-<element name="LS1" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="159.7152" y="157.8864" rot="MR105"/>
-<element name="LS10" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="178.2826" y="60.1726" rot="MR240"/>
-<element name="LS11" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="165.6334" y="53.9242" rot="MR255"/>
-<element name="LS12" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="151.6634" y="51.4858" rot="MR270"/>
-<element name="LS13" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="137.6934" y="52.4256" rot="MR285"/>
-<element name="LS14" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="124.4346" y="57.023" rot="MR300"/>
-<element name="LS15" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="112.8268" y="65.2018" rot="MR315"/>
-<element name="LS16" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="103.5304" y="75.7682" rot="MR330"/>
-<element name="LS17" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="97.4344" y="88.4682" rot="MR345"/>
-<element name="LS18" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="94.8944" y="102.235" rot="MR0"/>
-<element name="LS19" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="95.9612" y="116.3066" rot="MR15"/>
-<element name="LS2" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="172.9486" y="153.3144" rot="MR120"/>
-<element name="LS20" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="100.584" y="129.5908" rot="MR30"/>
-<element name="LS21" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="108.5596" y="141.1732" rot="MR45"/>
-<element name="LS22" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="119.126" y="150.3426" rot="MR60"/>
-<element name="LS23" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="131.8514" y="156.4386" rot="MR75"/>
-<element name="LS3" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="184.5056" y="145.3642" rot="MR135"/>
-<element name="LS4" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="193.8274" y="134.7978" rot="MR150"/>
-<element name="LS5" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="199.771" y="122.1486" rot="MR165"/>
-<element name="LS6" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="202.4634" y="108.331" rot="MR180"/>
-<element name="LS7" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="201.4728" y="94.2848" rot="MR195"/>
-<element name="LS8" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="196.7484" y="81.026" rot="MR210"/>
-<element name="LS9" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="188.8236" y="69.342" rot="MR225"/>
+<element name="LS0" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="145.7198" y="158.9278" smashed="yes" rot="MR90"/>
+<element name="LS1" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="159.7152" y="157.8864" smashed="yes" rot="MR105"/>
+<element name="LS10" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="178.2826" y="60.1726" smashed="yes" rot="MR240"/>
+<element name="LS11" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="165.6334" y="53.9242" smashed="yes" rot="MR255"/>
+<element name="LS12" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="151.6634" y="51.4858" smashed="yes" rot="MR270"/>
+<element name="LS13" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="137.6934" y="52.4256" smashed="yes" rot="MR285"/>
+<element name="LS14" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="124.4346" y="57.023" smashed="yes" rot="MR300"/>
+<element name="LS15" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="112.8268" y="65.2018" smashed="yes" rot="MR315"/>
+<element name="LS16" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="103.5304" y="75.7682" smashed="yes" rot="MR330"/>
+<element name="LS17" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="97.4344" y="88.4682" smashed="yes" rot="MR345"/>
+<element name="LS18" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="94.8944" y="102.235" smashed="yes" rot="MR0"/>
+<element name="LS19" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="95.9612" y="116.3066" smashed="yes" rot="MR15"/>
+<element name="LS2" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="172.9486" y="153.3144" smashed="yes" rot="MR120"/>
+<element name="LS20" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="100.584" y="129.5908" smashed="yes" rot="MR30"/>
+<element name="LS21" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="108.5596" y="141.1732" smashed="yes" rot="MR45"/>
+<element name="LS22" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="119.126" y="150.3426" smashed="yes" rot="MR60"/>
+<element name="LS23" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="131.8514" y="156.4386" smashed="yes" rot="MR75"/>
+<element name="LS3" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="184.5056" y="145.3642" smashed="yes" rot="MR135"/>
+<element name="LS4" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="193.8274" y="134.7978" smashed="yes" rot="MR150"/>
+<element name="LS5" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="199.771" y="122.1486" smashed="yes" rot="MR165"/>
+<element name="LS6" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="202.4634" y="108.331" smashed="yes" rot="MR180"/>
+<element name="LS7" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="201.4728" y="94.2848" smashed="yes" rot="MR195"/>
+<element name="LS8" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="196.7484" y="81.026" smashed="yes" rot="MR210"/>
+<element name="LS9" library="phototransitor-ALS-PT19-315CL177TR8" package="SMD" value="ALS" x="188.8236" y="69.342" smashed="yes" rot="MR225"/>
 <element name="R1" library="rcl" package="RTRIM3296W" value="" x="160.571178125" y="147.9321375" smashed="yes" rot="R90">
 <attribute name="VALUE" x="165.071178125" y="151.8821375" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="R10" library="SparkFun-Resistors" package="0603-RES" value="100" x="198.8312" y="130.81" rot="R300"/>
-<element name="R11" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="195.8594" y="135.9408" rot="R300"/>
-<element name="R12" library="SparkFun-Resistors" package="0603-RES" value="100" x="203.835" y="117.094" rot="R285"/>
-<element name="R13" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="202.1078" y="122.809" rot="R285"/>
-<element name="R14" library="SparkFun-Resistors" package="0603-RES" value="100" x="204.8256" y="102.362" rot="R270"/>
-<element name="R15" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="204.7748" y="108.2294" rot="R270"/>
-<element name="R16" library="SparkFun-Resistors" package="0603-RES" value="100" x="202.0824" y="88.0364" rot="R255"/>
-<element name="R17" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="203.7334" y="93.6244" rot="R255"/>
-<element name="R18" library="SparkFun-Resistors" package="0603-RES" value="100" x="195.7832" y="74.549" rot="R240"/>
-<element name="R19" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="198.7042" y="79.8576" rot="R240"/>
-<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="100" x="151.7142" y="161.417"/>
-<element name="R20" library="SparkFun-Resistors" package="0603-RES" value="100" x="186.2582" y="63.6524" rot="R225"/>
-<element name="R21" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="190.3984" y="67.7926" rot="R225"/>
-<element name="R22" library="SparkFun-Resistors" package="0603-RES" value="100" x="174.0662" y="55.2958" rot="R210"/>
-<element name="R23" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="179.2986" y="58.293" rot="R210"/>
-<element name="R24" library="SparkFun-Resistors" package="0603-RES" value="100" x="160.2486" y="50.4444" rot="R195"/>
-<element name="R25" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="166.116" y="51.8414" rot="R195"/>
-<element name="R26" library="SparkFun-Resistors" package="0603-RES" value="100" x="145.5674" y="49.3522" rot="R180"/>
-<element name="R27" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="151.638" y="49.3268" rot="R180"/>
-<element name="R28" library="SparkFun-Resistors" package="0603-RES" value="100" x="131.3434" y="51.8922" rot="R165"/>
-<element name="R29" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="136.9568" y="50.3936" rot="R165"/>
-<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="145.6182" y="161.3916"/>
-<element name="R30" library="SparkFun-Resistors" package="0603-RES" value="100" x="117.983" y="58.2422" rot="R150"/>
-<element name="R31" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="123.3932" y="55.2958" rot="R150"/>
-<element name="R32" library="SparkFun-Resistors" package="0603-RES" value="100" x="106.8832" y="67.7418" rot="R135"/>
-<element name="R33" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="111.1504" y="63.5762" rot="R135"/>
-<element name="R34" library="SparkFun-Resistors" package="0603-RES" value="100" x="98.5774" y="79.9338" rot="R120"/>
-<element name="R35" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="101.6" y="74.7014" rot="R120"/>
-<element name="R36" library="SparkFun-Resistors" package="0603-RES" value="100" x="93.6244" y="93.6498" rot="R105"/>
-<element name="R37" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="95.1484" y="87.8586" rot="R105"/>
-<element name="R38" library="SparkFun-Resistors" package="0603-RES" value="100" x="92.5322" y="108.2548" rot="R90"/>
-<element name="R39" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="92.5322" y="102.2858" rot="R90"/>
-<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="100" x="166.0652" y="158.7754" rot="R345"/>
-<element name="R40" library="SparkFun-Resistors" package="0603-RES" value="100" x="95.0976" y="122.7074" rot="R75"/>
-<element name="R41" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="93.5482" y="116.8654" rot="R75"/>
-<element name="R42" library="SparkFun-Resistors" package="0603-RES" value="100" x="101.6" y="136.0424" rot="R60"/>
-<element name="R43" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="98.6028" y="130.9116" rot="R60"/>
-<element name="R44" library="SparkFun-Resistors" package="0603-RES" value="100" x="111.1504" y="147.0406" rot="R45"/>
-<element name="R45" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="106.934" y="142.8242" rot="R45"/>
-<element name="R46" library="SparkFun-Resistors" package="0603-RES" value="100" x="123.1138" y="155.194" rot="R30"/>
-<element name="R47" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="118.1862" y="152.4508" rot="R30"/>
-<element name="R48" library="SparkFun-Resistors" package="0603-RES" value="100" x="136.9822" y="160.1724" rot="R15"/>
-<element name="R49" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="131.318" y="158.6992" rot="R15"/>
-<element name="R5" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="160.2486" y="160.274" rot="R345"/>
-<element name="R6" library="SparkFun-Resistors" package="0603-RES" value="100" x="179.2478" y="152.4508" rot="R330"/>
-<element name="R7" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="174.117" y="155.3972" rot="R330"/>
-<element name="R8" library="SparkFun-Resistors" package="0603-RES" value="100" x="190.4238" y="142.8496" rot="R315"/>
-<element name="R9" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="186.1566" y="147.1676" rot="R315"/>
+<element name="R10" library="SparkFun-Resistors" package="0603-RES" value="100" x="198.8312" y="130.81" smashed="yes" rot="R300">
+<attribute name="VALUE" x="196.31733125" y="130.81358125" size="1.016" layer="27" font="vector" rot="R300"/>
+</element>
+<element name="R11" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="195.8594" y="135.9408" smashed="yes" rot="R300">
+<attribute name="VALUE" x="192.42681875" y="136.37333125" size="1.016" layer="27" font="vector" rot="R30"/>
+</element>
+<element name="R12" library="SparkFun-Resistors" package="0603-RES" value="100" x="203.835" y="117.094" smashed="yes" rot="R285">
+<attribute name="VALUE" x="201.680584375" y="117.50015" size="1.016" layer="27" font="vector" rot="R285"/>
+</element>
+<element name="R13" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="202.1078" y="122.809" smashed="yes" rot="R285">
+<attribute name="VALUE" x="199.64425" y="124.337584375" size="1.016" layer="27" font="vector" rot="R15"/>
+</element>
+<element name="R14" library="SparkFun-Resistors" package="0603-RES" value="100" x="204.8256" y="102.362" smashed="yes" rot="R270">
+<attribute name="VALUE" x="202.565" y="102.7938" size="1.016" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R15" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="204.7748" y="108.2294" smashed="yes" rot="R270">
+<attribute name="VALUE" x="202.7682" y="110.5662" size="1.016" layer="27" font="vector"/>
+</element>
+<element name="R16" library="SparkFun-Resistors" package="0603-RES" value="100" x="202.0824" y="88.0364" smashed="yes" rot="R255">
+<attribute name="VALUE" x="200.37770625" y="89.643809375" size="1.016" layer="27" font="vector" rot="R255"/>
+</element>
+<element name="R17" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="203.7334" y="93.6244" smashed="yes" rot="R255">
+<attribute name="VALUE" x="202.049790625" y="96.23770625" size="1.016" layer="27" font="vector" rot="R345"/>
+</element>
+<element name="R18" library="SparkFun-Resistors" package="0603-RES" value="100" x="195.7832" y="74.549" smashed="yes" rot="R240">
+<attribute name="VALUE" x="194.28533125" y="76.81318125" size="1.016" layer="27" font="vector" rot="R240"/>
+</element>
+<element name="R19" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="198.7042" y="79.8576" smashed="yes" rot="R240">
+<attribute name="VALUE" x="197.83701875" y="82.85553125" size="1.016" layer="27" font="vector" rot="R330"/>
+</element>
+<element name="R2" library="SparkFun-Resistors" package="0603-RES" value="100" x="151.7142" y="161.417" smashed="yes">
+<attribute name="VALUE" x="150.3934" y="159.4358" size="1.016" layer="27" font="vector"/>
+</element>
+<element name="R20" library="SparkFun-Resistors" package="0603-RES" value="100" x="186.2582" y="63.6524" smashed="yes" rot="R225">
+<attribute name="VALUE" x="184.669796875" y="65.407640625" size="1.016" layer="27" font="vector" rot="R225"/>
+</element>
+<element name="R21" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="190.3984" y="67.7926" smashed="yes" rot="R225">
+<attribute name="VALUE" x="190.319559375" y="70.699996875" size="1.016" layer="27" font="vector" rot="R315"/>
+</element>
+<element name="R22" library="SparkFun-Resistors" package="0603-RES" value="100" x="174.0662" y="55.2958" smashed="yes" rot="R210">
+<attribute name="VALUE" x="173.96818125" y="57.835065625" size="1.016" layer="27" font="vector" rot="R210"/>
+</element>
+<element name="R23" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="179.2986" y="58.293" smashed="yes" rot="R210">
+<attribute name="VALUE" x="180.137534375" y="61.03978125" size="1.016" layer="27" font="vector" rot="R300"/>
+</element>
+<element name="R24" library="SparkFun-Resistors" package="0603-RES" value="100" x="160.2486" y="50.4444" smashed="yes" rot="R195">
+<attribute name="VALUE" x="160.37535" y="52.9290125" size="1.016" layer="27" font="vector" rot="R195"/>
+</element>
+<element name="R25" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="166.116" y="51.8414" smashed="yes" rot="R195">
+<attribute name="VALUE" x="167.5429875" y="54.93995" size="1.016" layer="27" font="vector" rot="R285"/>
+</element>
+<element name="R26" library="SparkFun-Resistors" package="0603-RES" value="100" x="145.5674" y="49.3522" smashed="yes" rot="R180">
+<attribute name="VALUE" x="145.6182" y="51.689" size="1.016" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R27" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="151.638" y="49.3268" smashed="yes" rot="R180">
+<attribute name="VALUE" x="154.0002" y="51.6128" size="1.016" layer="27" font="vector" rot="R270"/>
+</element>
+<element name="R28" library="SparkFun-Resistors" package="0603-RES" value="100" x="131.3434" y="51.8922" smashed="yes" rot="R165">
+<attribute name="VALUE" x="132.925409375" y="53.927090625" size="1.016" layer="27" font="vector" rot="R165"/>
+</element>
+<element name="R29" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="136.9568" y="50.3936" smashed="yes" rot="R165">
+<attribute name="VALUE" x="139.671709375" y="52.026409375" size="1.016" layer="27" font="vector" rot="R255"/>
+</element>
+<element name="R3" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="145.6182" y="161.3916" smashed="yes">
+<attribute name="VALUE" x="143.4592" y="159.512" size="1.016" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R30" library="SparkFun-Resistors" package="0603-RES" value="100" x="117.983" y="58.2422" smashed="yes" rot="R150">
+<attribute name="VALUE" x="120.06938125" y="59.587665625" size="1.016" layer="27" font="vector" rot="R150"/>
+</element>
+<element name="R31" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="123.3932" y="55.2958" smashed="yes" rot="R150">
+<attribute name="VALUE" x="126.162534375" y="56.13758125" size="1.016" layer="27" font="vector" rot="R240"/>
+</element>
+<element name="R32" library="SparkFun-Resistors" package="0603-RES" value="100" x="106.8832" y="67.7418" smashed="yes" rot="R135">
+<attribute name="VALUE" x="108.816240625" y="69.2794" size="1.016" layer="27" font="vector" rot="R135"/>
+</element>
+<element name="R33" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="111.1504" y="63.5762" smashed="yes" rot="R135">
+<attribute name="VALUE" x="113.9308" y="63.705840625" size="1.016" layer="27" font="vector" rot="R225"/>
+</element>
+<element name="R34" library="SparkFun-Resistors" package="0603-RES" value="100" x="98.5774" y="79.9338" smashed="yes" rot="R120">
+<attribute name="VALUE" x="100.888065625" y="80.362015625" size="1.016" layer="27" font="vector" rot="R120"/>
+</element>
+<element name="R35" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="101.6" y="74.7014" smashed="yes" rot="R120">
+<attribute name="VALUE" x="104.753184375" y="74.014865625" size="1.016" layer="27" font="vector" rot="R210"/>
+</element>
+<element name="R36" library="SparkFun-Resistors" package="0603-RES" value="100" x="93.6244" y="93.6498" smashed="yes" rot="R105">
+<attribute name="VALUE" x="96.1852125" y="92.964246875" size="1.016" layer="27" font="vector" rot="R105"/>
+</element>
+<element name="R37" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="95.1484" y="87.8586" smashed="yes" rot="R105">
+<attribute name="VALUE" x="97.942153125" y="86.4824125" size="1.016" layer="27" font="vector" rot="R195"/>
+</element>
+<element name="R38" library="SparkFun-Resistors" package="0603-RES" value="100" x="92.5322" y="108.2548" smashed="yes" rot="R90">
+<attribute name="VALUE" x="94.6404" y="107.8992" size="1.016" layer="27" font="vector" rot="R90"/>
+</element>
+<element name="R39" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="92.5322" y="102.2858" smashed="yes" rot="R90">
+<attribute name="VALUE" x="94.7166" y="100.4316" size="1.016" layer="27" font="vector" rot="R180"/>
+</element>
+<element name="R4" library="SparkFun-Resistors" package="0603-RES" value="100" x="166.0652" y="158.7754" smashed="yes" rot="R345">
+<attribute name="VALUE" x="164.3815875" y="157.07070625" size="1.016" layer="27" font="vector" rot="R345"/>
+</element>
+<element name="R40" library="SparkFun-Resistors" package="0603-RES" value="100" x="95.0976" y="122.7074" smashed="yes" rot="R75">
+<attribute name="VALUE" x="96.954690625" y="120.8205875" size="1.016" layer="27" font="vector" rot="R75"/>
+</element>
+<element name="R41" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="93.5482" y="116.8654" smashed="yes" rot="R75">
+<attribute name="VALUE" x="95.7144125" y="113.820290625" size="1.016" layer="27" font="vector" rot="R165"/>
+</element>
+<element name="R42" library="SparkFun-Resistors" package="0603-RES" value="100" x="101.6" y="136.0424" smashed="yes" rot="R60">
+<attribute name="VALUE" x="102.742265625" y="133.778215625" size="1.016" layer="27" font="vector" rot="R60"/>
+</element>
+<element name="R43" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="98.6028" y="130.9116" smashed="yes" rot="R60">
+<attribute name="VALUE" x="99.901784375" y="127.964465625" size="1.016" layer="27" font="vector" rot="R150"/>
+</element>
+<element name="R44" library="SparkFun-Resistors" package="0603-RES" value="100" x="111.1504" y="147.0406" smashed="yes" rot="R45">
+<attribute name="VALUE" x="112.8404" y="145.46315625" size="1.016" layer="27" font="vector" rot="R45"/>
+</element>
+<element name="R45" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="106.934" y="142.8242" smashed="yes" rot="R45">
+<attribute name="VALUE" x="107.13984375" y="139.6374" size="1.016" layer="27" font="vector" rot="R135"/>
+</element>
+<element name="R46" library="SparkFun-Resistors" package="0603-RES" value="100" x="123.1138" y="155.194" smashed="yes" rot="R30">
+<attribute name="VALUE" x="123.135615625" y="152.70553125" size="1.016" layer="27" font="vector" rot="R30"/>
+</element>
+<element name="R47" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="118.1862" y="152.4508" smashed="yes" rot="R30">
+<attribute name="VALUE" x="117.93146875" y="149.094415625" size="1.016" layer="27" font="vector" rot="R120"/>
+</element>
+<element name="R48" library="SparkFun-Resistors" package="0603-RES" value="100" x="136.9822" y="160.1724" smashed="yes" rot="R15">
+<attribute name="VALUE" x="136.372846875" y="157.662384375" size="1.016" layer="27" font="vector" rot="R15"/>
+</element>
+<element name="R49" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="131.318" y="158.6992" smashed="yes" rot="R15">
+<attribute name="VALUE" x="129.840215625" y="156.108646875" size="1.016" layer="27" font="vector" rot="R105"/>
+</element>
+<element name="R5" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="160.2486" y="160.274" smashed="yes" rot="R345">
+<attribute name="VALUE" x="157.63529375" y="159.1999875" size="1.016" layer="27" font="vector" rot="R75"/>
+</element>
+<element name="R6" library="SparkFun-Resistors" package="0603-RES" value="100" x="179.2478" y="152.4508" smashed="yes" rot="R330">
+<attribute name="VALUE" x="177.085215625" y="151.46093125" size="1.016" layer="27" font="vector" rot="R330"/>
+</element>
+<element name="R7" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="174.117" y="155.3972" smashed="yes" rot="R330">
+<attribute name="VALUE" x="171.44926875" y="154.885615625" size="1.016" layer="27" font="vector" rot="R60"/>
+</element>
+<element name="R8" library="SparkFun-Resistors" package="0603-RES" value="100" x="190.4238" y="142.8496" smashed="yes" rot="R315">
+<attribute name="VALUE" x="188.64315625" y="141.413596875" size="1.016" layer="27" font="vector" rot="R315"/>
+</element>
+<element name="R9" library="SparkFun-Resistors" package="0603-RES" value="19.6K" x="186.1566" y="147.1676" smashed="yes" rot="R315">
+<attribute name="VALUE" x="182.969803125" y="147.21575625" size="1.016" layer="27" font="vector" rot="R45"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

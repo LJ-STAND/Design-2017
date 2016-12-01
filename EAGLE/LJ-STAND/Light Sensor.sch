@@ -4790,8 +4790,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <vertex x="-0.1" y="-0.3"/>
 <vertex x="-0.2" y="-0.3"/>
 </polygon>
-<text x="-1" y="0.5" size="0.3" layer="25">&gt;NAME</text>
-<text x="-1" y="-0.7" size="0.2" layer="25">C</text>
+<text x="-1.0762" y="-1.8684" size="1.016" layer="25" font="vector">C</text>
 </package>
 </packages>
 <symbols>
