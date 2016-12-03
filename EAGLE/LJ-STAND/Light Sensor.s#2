@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.5.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4790,8 +4790,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <vertex x="-0.1" y="-0.3"/>
 <vertex x="-0.2" y="-0.3"/>
 </polygon>
-<text x="-1" y="0.5" size="0.3" layer="25">&gt;NAME</text>
-<text x="-1" y="-0.7" size="0.2" layer="25">C</text>
+<text x="-1.0762" y="-1.8684" size="1.016" layer="25" font="vector">C</text>
 </package>
 </packages>
 <symbols>
@@ -6213,11 +6212,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="55.88" y="78.74" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="14"/>
-<wire x1="71.12" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
-<label x="78.74" y="78.74" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="LS12" gate="G$1" pin="E"/>
 <pinref part="R27" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="170.18" x2="7.62" y2="172.72" width="0.1524" layer="91"/>
@@ -6278,11 +6272,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <label x="55.88" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="22"/>
-<wire x1="71.12" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
-<label x="78.74" y="68.58" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="LS18" gate="G$1" pin="E"/>
 <pinref part="R39" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="223.52" x2="7.62" y2="226.06" width="0.1524" layer="91"/>
@@ -6301,11 +6290,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="21"/>
 <wire x1="63.5" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 <label x="55.88" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="24"/>
-<wire x1="71.12" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
-<label x="78.74" y="66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="LS20" gate="G$1" pin="E"/>
@@ -6343,11 +6327,6 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 </net>
 <net name="LS13" class="0">
 <segment>
-<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="16"/>
-<wire x1="71.12" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
-<label x="78.74" y="76.2" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="LS13" gate="G$1" pin="E"/>
 <pinref part="R29" gate="G$1" pin="2"/>
 <wire x1="-30.48" y1="170.18" x2="-30.48" y2="172.72" width="0.1524" layer="91"/>
@@ -6360,13 +6339,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="-38.1" y="172.72"/>
 <label x="-40.64" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="14"/>
+<wire x1="71.12" y1="78.74" x2="78.74" y2="78.74" width="0.1524" layer="91"/>
+<label x="78.74" y="78.74" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS15" class="0">
-<segment>
-<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="18"/>
-<wire x1="71.12" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
-<label x="78.74" y="73.66" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="LS15" gate="G$1" pin="E"/>
 <pinref part="R33" gate="G$1" pin="2"/>
@@ -6380,13 +6359,13 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="-114.3" y="172.72"/>
 <label x="-116.84" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="16"/>
+<wire x1="71.12" y1="76.2" x2="78.74" y2="76.2" width="0.1524" layer="91"/>
+<label x="78.74" y="76.2" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS17" class="0">
-<segment>
-<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="20"/>
-<wire x1="71.12" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
-<label x="78.74" y="71.12" size="1.778" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="LS17" gate="G$1" pin="E"/>
 <pinref part="R37" gate="G$1" pin="2"/>
@@ -6399,6 +6378,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="-190.5" y1="170.18" x2="-190.5" y2="172.72" width="0.1524" layer="91"/>
 <junction x="-190.5" y="172.72"/>
 <label x="-193.04" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="18"/>
+<wire x1="71.12" y1="73.66" x2="78.74" y2="73.66" width="0.1524" layer="91"/>
+<label x="78.74" y="73.66" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -6845,6 +6829,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="-38.1" y="226.06"/>
 <label x="-40.64" y="226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="20"/>
+<wire x1="71.12" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="91"/>
+<label x="78.74" y="71.12" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS21" class="0">
 <segment>
@@ -6860,6 +6849,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <junction x="-114.3" y="226.06"/>
 <label x="-116.84" y="226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="22"/>
+<wire x1="71.12" y1="68.58" x2="78.74" y2="68.58" width="0.1524" layer="91"/>
+<label x="78.74" y="68.58" size="1.778" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="LS23" class="0">
 <segment>
@@ -6874,6 +6868,11 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <wire x1="-190.5" y1="223.52" x2="-190.5" y2="226.06" width="0.1524" layer="91"/>
 <junction x="-190.5" y="226.06"/>
 <label x="-193.04" y="226.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LIGHT_SENSOR_CONNECTOR" gate="A" pin="24"/>
+<wire x1="71.12" y1="66.04" x2="78.74" y2="66.04" width="0.1524" layer="91"/>
+<label x="78.74" y="66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
