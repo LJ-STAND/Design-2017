@@ -9880,8 +9880,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="+3V21" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
 <part name="POWER" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="BLUE"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
-<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="ORANGE"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="RED"/>
+<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
 <part name="GND95" library="supply1" deviceset="GND" device=""/>
 <part name="GND97" library="supply1" deviceset="GND" device=""/>
 <part name="GND98" library="supply1" deviceset="GND" device=""/>
@@ -9889,8 +9889,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>
-<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="PINK"/>
-<part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="RED"/>
+<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="BLUE"/>
+<part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="YELLOW"/>
 <part name="GND96" library="supply1" deviceset="GND" device=""/>
 <part name="GND99" library="supply1" deviceset="GND" device=""/>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>
@@ -9905,7 +9905,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="C51" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND103" library="supply1" deviceset="GND" device=""/>
 <part name="LED5" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="WHITE"/>
-<part name="LED6" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="YELLOW"/>
+<part name="LED6" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="ORANGE"/>
 <part name="GND104" library="supply1" deviceset="GND" device=""/>
 <part name="GND105" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>

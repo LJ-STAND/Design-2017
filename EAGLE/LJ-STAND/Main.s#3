@@ -9879,9 +9879,9 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="BLUETOOTH" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH"/>
 <part name="+3V21" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
-<part name="POWER" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
-<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
-<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="PWR" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="BLUE"/>
+<part name="LED1" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="GREEN"/>
+<part name="LED2" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="ORANGE"/>
 <part name="GND95" library="supply1" deviceset="GND" device=""/>
 <part name="GND97" library="supply1" deviceset="GND" device=""/>
 <part name="GND98" library="supply1" deviceset="GND" device=""/>
@@ -9889,8 +9889,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="R18" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>
-<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
-<part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="LED3" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="PINK"/>
+<part name="LED4" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="RED"/>
 <part name="GND96" library="supply1" deviceset="GND" device=""/>
 <part name="GND99" library="supply1" deviceset="GND" device=""/>
 <part name="R20" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>
@@ -9904,8 +9904,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="C50" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.01uF"/>
 <part name="C51" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.22uF"/>
 <part name="GND103" library="supply1" deviceset="GND" device=""/>
-<part name="LED5" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
-<part name="LED6" library="adafruit" deviceset="LED" device="CHIPLED_0603"/>
+<part name="LED5" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="WHITE"/>
+<part name="LED6" library="adafruit" deviceset="LED" device="CHIPLED_0603" value="YELLOW"/>
 <part name="GND104" library="supply1" deviceset="GND" device=""/>
 <part name="GND105" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="330"/>
@@ -10147,7 +10147,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="BLUETOOTH" gate="G$1" x="149.86" y="187.96"/>
 <instance part="+3V21" gate="G$1" x="162.56" y="185.42"/>
 <instance part="GND93" gate="1" x="167.64" y="182.88"/>
-<instance part="POWER" gate="G$1" x="213.36" y="302.26"/>
+<instance part="PWR" gate="G$1" x="213.36" y="302.26"/>
 <instance part="LED1" gate="G$1" x="228.6" y="302.26"/>
 <instance part="LED2" gate="G$1" x="238.76" y="302.26"/>
 <instance part="GND95" gate="1" x="213.36" y="292.1"/>
@@ -10776,7 +10776,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="154.94" y1="187.96" x2="167.64" y2="187.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="POWER" gate="G$1" pin="C"/>
+<pinref part="PWR" gate="G$1" pin="C"/>
 <wire x1="213.36" y1="297.18" x2="213.36" y2="294.64" width="0.1524" layer="91"/>
 <pinref part="GND95" gate="1" pin="GND"/>
 </segment>
@@ -12381,7 +12381,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </net>
 <net name="N$27" class="0">
 <segment>
-<pinref part="POWER" gate="G$1" pin="A"/>
+<pinref part="PWR" gate="G$1" pin="A"/>
 <wire x1="213.36" y1="304.8" x2="213.36" y2="307.34" width="0.1524" layer="91"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 </segment>

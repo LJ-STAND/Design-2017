@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="8.0.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9933,6 +9933,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="GND106" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
+<part name="KICKER_PWR" library="jst-vh" deviceset="B2P-VH" device="" value="VH"/>
+<part name="GND107" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9955,7 +9957,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="C13" gate="G$1" x="60.96" y="106.68"/>
 <instance part="C14" gate="G$1" x="91.44" y="106.68"/>
 <instance part="MOTOR_SWITCH" gate="G$1" x="5.08" y="137.16" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.13" y="143.51" size="1.778" layer="95" rot="R180"/>
+<attribute name="NAME" x="21.59" y="143.51" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="12.7" y="133.35" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="LOGIC_SWITCH" gate="G$1" x="7.62" y="109.22" smashed="yes" rot="R270">
@@ -10204,6 +10206,11 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <instance part="GND106" gate="1" x="139.7" y="149.86"/>
 <instance part="P+8" gate="1" x="139.7" y="167.64"/>
 <instance part="P+7" gate="1" x="261.62" y="259.08"/>
+<instance part="KICKER_PWR" gate="G$1" x="43.18" y="137.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="57.15" y="143.51" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="50.8" y="133.35" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND107" gate="1" x="43.18" y="127"/>
 </instances>
 <busses>
 </busses>
@@ -10911,6 +10918,11 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <wire x1="139.7" y1="154.94" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="GND106" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="KICKER_PWR" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="137.16" x2="43.18" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="GND107" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="MOTOR_PWR" class="0">
 <segment>
@@ -10978,6 +10990,12 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <pinref part="MOTOR_4" gate="G$1" pin="VCC"/>
 <wire x1="2.54" y1="259.08" x2="5.08" y2="259.08" width="0.1524" layer="91"/>
 <wire x1="5.08" y1="259.08" x2="5.08" y2="271.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="KICKER_PWR" gate="G$1" pin="2"/>
+<wire x1="45.72" y1="137.16" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="129.54" x2="48.26" y2="129.54" width="0.1524" layer="91"/>
+<label x="48.26" y="129.54" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$11" class="0">
