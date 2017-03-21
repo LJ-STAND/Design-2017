@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -12549,8 +12549,8 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </segment>
 <segment>
 <pinref part="IMU" gate="G$1" pin="3"/>
-<wire x1="203.2" y1="241.3" x2="205.74" y2="241.3" width="0.1524" layer="91"/>
-<label x="205.74" y="241.3" size="1.778" layer="95" xref="yes"/>
+<wire x1="203.2" y1="241.3" x2="208.28" y2="241.3" width="0.1524" layer="91"/>
+<label x="208.28" y="241.3" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SCL" gate="G$1" pin="S"/>
