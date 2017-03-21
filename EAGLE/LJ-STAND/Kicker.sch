@@ -8599,6 +8599,11 @@ by R. Vogg  15.March.2002</description>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="D1" library="diode" deviceset="1N4004" device=""/>
 <part name="D2" library="diode" deviceset="1N4004" device=""/>
+<part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-2W"/>
+<part name="GND5" library="supply1" deviceset="GND" device=""/>
+<part name="HVIN" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="HVOUT" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="R4" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-2W"/>
 </parts>
 <sheets>
 <sheet>
@@ -8623,6 +8628,11 @@ by R. Vogg  15.March.2002</description>
 <instance part="GND4" gate="1" x="101.6" y="124.46"/>
 <instance part="D1" gate="1" x="68.58" y="127" rot="R90"/>
 <instance part="D2" gate="1" x="93.98" y="114.3" rot="R90"/>
+<instance part="R3" gate="G$1" x="119.38" y="132.08" rot="R90"/>
+<instance part="GND5" gate="1" x="114.3" y="124.46"/>
+<instance part="HVIN" gate="G$1" x="12.7" y="119.38"/>
+<instance part="HVOUT" gate="G$1" x="12.7" y="132.08"/>
+<instance part="R4" gate="G$1" x="86.36" y="139.7" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8682,6 +8692,11 @@ by R. Vogg  15.March.2002</description>
 <wire x1="50.8" y1="91.44" x2="76.2" y2="91.44" width="0.1524" layer="91"/>
 <junction x="76.2" y="91.44"/>
 </segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="119.38" y1="127" x2="114.3" y2="127" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="TRIGGER" class="0">
 <segment>
@@ -8721,15 +8736,11 @@ by R. Vogg  15.March.2002</description>
 <wire x1="101.6" y1="137.16" x2="101.6" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="139.7" x2="114.3" y2="139.7" width="0.1524" layer="91"/>
 <junction x="101.6" y="139.7"/>
-<wire x1="114.3" y1="139.7" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="139.7" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="VCC" class="0">
-<segment>
-<pinref part="K1" gate="2" pin="O"/>
-<wire x1="86.36" y1="132.08" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
-<label x="86.36" y="134.62" size="1.778" layer="95" rot="R90" xref="yes"/>
-</segment>
 <segment>
 <pinref part="KICKER_PWR" gate="G$1" pin="1"/>
 <wire x1="12.7" y1="81.28" x2="7.62" y2="81.28" width="0.1524" layer="91"/>
@@ -8745,12 +8756,48 @@ by R. Vogg  15.March.2002</description>
 <wire x1="68.58" y1="129.54" x2="68.58" y2="134.62" width="0.1524" layer="91"/>
 <label x="76.2" y="137.16" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
+<segment>
+<pinref part="HVIN" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="119.38" x2="7.62" y2="119.38" width="0.1524" layer="91"/>
+<label x="7.62" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="Q1" gate="G$1" pin="G"/>
 <wire x1="63.5" y1="106.68" x2="66.04" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HV" class="0">
+<segment>
+<pinref part="HVOUT" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="132.08" x2="7.62" y2="132.08" width="0.1524" layer="91"/>
+<label x="7.62" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="144.78" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
+<label x="86.36" y="147.32" size="1.778" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="HVOUT" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="129.54" x2="7.62" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="HVIN" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="116.84" x2="7.62" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="K1" gate="2" pin="O"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="132.08" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

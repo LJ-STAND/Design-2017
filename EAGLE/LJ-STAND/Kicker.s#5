@@ -141,6 +141,7 @@ Source:
 </classes>
 <parts>
 <part name="KICKER_PWR" library="jst-vh" deviceset="B2P-VH" device=""/>
+<part name="SOLENOID_OUT" library="jst-vh" deviceset="B2P-VH" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -148,6 +149,7 @@ Source:
 </plain>
 <instances>
 <instance part="KICKER_PWR" gate="G$1" x="12.7" y="81.28"/>
+<instance part="SOLENOID_OUT" gate="G$1" x="12.7" y="93.98"/>
 </instances>
 <busses>
 </busses>
